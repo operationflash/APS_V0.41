@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rubenhoebee.aps_v04.ReadSensorsDebugMode">
+
+    <TextView
+        android:text="Y:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_alignBaseline="@+id/GYOutput"
+        android:layout_alignBottom="@+id/GYOutput"
+        android:layout_toLeftOf="@+id/GYOutput"
+        android:layout_toStartOf="@+id/GYOutput" />
+
+    <TextView
+        android:text="Debug mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="viewStart"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="start"/>
+
+    <TextView
+        android:id="@+id/Log"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:scrollbars="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:text="Raw server data:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/Log"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:text="@string/NoValue"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yPos"
+        android:layout_alignLeft="@+id/yPos"
+        android:layout_alignStart="@+id/yPos"
+        android:id="@+id/zPos" />
+
+    <TextView
+        android:text="@string/NoValue"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/yPos"
+        android:layout_below="@+id/xPos"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/Coordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/Ping"
+        android:layout_alignLeft="@+id/xPos"
+        android:layout_alignStart="@+id/xPos" />
+
+    <TextView
+        android:text="@string/NoValue"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/xPos"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/NoValue"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/zAngle"
+        android:layout_below="@+id/yAngle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/NoValue"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/yAngle"
+        android:layout_below="@+id/xAngle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/NoValue"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/xAngle"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/Angles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/zPos"
+        android:layout_alignLeft="@+id/zPos"
+        android:layout_alignStart="@+id/zPos" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/GYOutput"
+        android:textAlignment="center"
+        android:layout_below="@+id/GXOutput"
+        android:layout_toRightOf="@+id/textView7"
+        android:layout_toEndOf="@+id/textView7" />
+
+    <Button
+        android:background="@drawable/round_button_states"
+        android:id="@+id/DeadBtn"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="@string/Deadmansswitch"
+        android:padding="15dp"
+        android:layout_below="@+id/xAngle"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:text="Ping:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TxtView"
+        android:layout_below="@+id/textView14"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/Ping"
+        android:layout_width="30dp"
+        android:textAlignment="textStart"
+        android:text="@string/NoValue"
+        android:layout_below="@+id/textView14"
+        android:layout_toRightOf="@+id/TxtView"
+        android:layout_toEndOf="@+id/TxtView"
+        android:layout_gravity="start"/>
+
+    <TextView
+        android:text="@string/Speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zAngle"
+        android:layout_alignLeft="@+id/zAngle"
+        android:layout_alignStart="@+id/zAngle" />
+
+    <TextView
+        android:text="@string/NoValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rSpeed"
+        android:layout_below="@+id/zAngle"
+        android:layout_toRightOf="@+id/textView11"
+        android:layout_toEndOf="@+id/textView11" />
+
+    <TextView
+        android:text="@string/YAngle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+    <TextView
+        android:text="X:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Z:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8" />
+
+    <TextView
+        android:text="@string/XAngle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView9"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/XAngle"
+        android:layout_alignBaseline="@+id/textView12"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_toRightOf="@+id/textView12"
+        android:layout_toEndOf="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/YAngle"
+        android:layout_below="@+id/textView12"
+        android:layout_toRightOf="@+id/textView12"
+        android:layout_toEndOf="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/GZOutput"
+        android:textAlignment="center"
+        android:layout_alignBaseline="@+id/textView9"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/GXOutput"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_alignBaseline="@+id/textView14"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8" />
+
+</RelativeLayout>

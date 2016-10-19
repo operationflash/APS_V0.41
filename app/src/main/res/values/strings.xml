@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">APS_V0.4</string>
+    <string name="View1">View1</string>
+    <string name="View2">View2</string>
+    <string name="View3">View3</string>
+    <string name="View4">View4</string>
+    <string name="Login">Login</string>
+    <string name="APSMobileRobotControl">APS Mobile Robot Control</string>
+    <string name="XAngle">XAngle:</string>
+    <string name="YAngle">YAngle:</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="NoValue">---</string>
+    <string name="Deadmansswitch">Dead mans switch</string>
+    <string name="Speed">Speed:</string>
+    <string name="Angles">Angles:</string>
+    <string name="Coordinates">Coordinates:</string>
+    <string name="CollisionDetected">Collision detected,\n please contact the safety officer</string>
+</resources>
