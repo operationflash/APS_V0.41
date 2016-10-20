@@ -32,8 +32,8 @@
             android:name="com.rubenhoebee.aps_v04.ReadSensorsDebugMode"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.rubenhoebee.aps_v04.JoystickView"
-            android:screenOrientation="landscape" />
+            android:name="com.rubenhoebee.aps_v04.DrawJoystick"
+            android:screenOrientation="sensorLandscape" />
     </application>
 
 </manifest>

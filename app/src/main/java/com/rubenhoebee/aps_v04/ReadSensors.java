@@ -260,12 +260,12 @@ public class ReadSensors extends AppCompatActivity implements
         public boolean onFling(MotionEvent event1, MotionEvent event2,
                                float velocityX, float velocityY) {
             if (velocityX > 3500) {
-                Intent openAxisInterface = new Intent(ReadSensors.this, JoystickView.class);
+                Intent openAxisInterface = new Intent(ReadSensors.this, DrawJoystick.class);
                 startActivity(openAxisInterface);
 
             }
             else if (velocityX < -3500) {
-                Intent openAxisInterface = new Intent(ReadSensors.this, JoystickView.class);
+                Intent openAxisInterface = new Intent(ReadSensors.this, DrawJoystick.class);
                 startActivity(openAxisInterface);
             }
             return true;

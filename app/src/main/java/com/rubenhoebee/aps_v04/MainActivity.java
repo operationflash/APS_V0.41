@@ -94,5 +94,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+    public void test (View view) {
+        Intent openAxisInterface = new Intent(this, DrawJoystick.class);
+        startActivity(openAxisInterface);
+    }
 }
 
