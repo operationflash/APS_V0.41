@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Oct 21 16:16:22 CEST 2016
+#Fri Oct 21 17:20:54 CEST 2016
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=D\:\\Users\\Ruben\\AndroidStudioProjects\\APS_V0.4\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_seekbar_tick_mark_material.xml

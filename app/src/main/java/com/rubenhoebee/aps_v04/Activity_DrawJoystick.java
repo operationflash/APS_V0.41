@@ -22,7 +22,7 @@ import java.util.logging.Handler;
 
 public class Activity_DrawJoystick extends SurfaceView implements Runnable{
     Thread thread = null;
-    boolean CanDraw = false, BackSet = false, Kicked = false, RobotControl = false;
+    boolean CanDraw = false, BackSet = false, Kicked = false, RobotControl = true, OutWorkspace = false;
     Paint backgroundPaint, textPaint, joyPaint, errorPaint;
     Canvas canvas;
     SurfaceHolder surfaceHolder;
@@ -96,9 +96,15 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
             public void onMessage(String s) {
                 Log.i("Websocket", "onMessage: " + s);
                 final String message = s;
+                switch (s){
+                    case "Ready to operate":
+                        RobotControl = true;
+                        break;
+                }
                         Split = message.split("::");
                         switch (Split[0]) {
                             case "Ping":
+                                OutWorkspace = false;
                                 ping = "Ping: " + Split[1];
                                 break;
                             case "PosXYZ":
@@ -120,17 +126,29 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
                             case "NOTICE":
                                 switch (Split[1]){
                                     case "No Connection to Robot Control Unit.":
-                                        // turn robot to connected
-                                        return;
+                                        RobotControl = false;
+                                        break;
                                     case "You were kicked from the server.":
                                         Kicked = true;
-                                        // turn server icon to fail
                                         break;
                                     case "Admin took control over the robot.":
                                         Kicked = true;
                                         break;
                                 }
                                 break;
+                            case "INFO":
+                                switch (Split[1]){
+                                    case "Access to robot denied.":
+                                        Kicked = true;
+                                        break;
+                                }
+                                break;
+                            case "Processing":
+                                switch (Split[1]){
+                                    case "Target out of workspace.":
+                                        OutWorkspace = true;
+                                        break;
+                                }
                 }
             }
         };
@@ -194,12 +212,15 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
             }
             if (x[i] < width / 2 && y[i] <= midY + radius && y[i] >= midY - radius) {
                 canvas.drawCircle(squareX, y[i], joyradius, joyPaint);
+                yV = 0;
             }
             else if (x[i] < width / 2 && y[i] >= midY + radius){
                 canvas.drawCircle(squareX, midY + radius, joyradius, joyPaint);
+                yV = -100;
             }
             else if (x[i] < width / 2 && y[i] <= midY - radius) {
                 canvas.drawCircle(squareX , midY - radius, joyradius, joyPaint);
+                yV = 100;
             }
         }
         rCommand = "MoveL::" + xV + "::" + yV + "::"  + zV + "::0::0::0::Rel";
@@ -220,8 +241,15 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
     }
 
     private void control() {
-        canvas.drawCircle(roundX,midY,radius,backgroundPaint);
-        canvas.drawRect(squareX - 10,midY + radius, squareX + 10, midY  - radius, backgroundPaint);
+        if (OutWorkspace)
+        {
+            canvas.drawCircle(roundX,midY,radius,errorPaint);
+            canvas.drawRect(squareX - 10,midY + radius, squareX + 10, midY  - radius, errorPaint);
+        }
+        else {
+            canvas.drawCircle(roundX, midY, radius, backgroundPaint);
+            canvas.drawRect(squareX - 10, midY + radius, squareX + 10, midY - radius, backgroundPaint);
+        }
         canvas.drawText(ping,textX,fontSize,textPaint);
         canvas.drawText(xCoor,textX,fontSize*2,textPaint);
         canvas.drawText(yCoor,textX,fontSize*3,textPaint);
@@ -229,12 +257,13 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
         canvas.drawText(xAngle,textX,fontSize*5,textPaint);
         canvas.drawText(yAngle,textX,fontSize*6,textPaint);
         canvas.drawText(zAngle,textX,fontSize*7,textPaint);
-        if (Kicked) {
+        if (RobotControl == false) {
+            canvas.drawText("No connection to the robot", textX - fontSize * 10, midY, errorPaint);
+        }
+        else if (Kicked) {
             canvas.drawText("You no longer have control", textX - fontSize * 10, midY, errorPaint);
         }
-        if (RobotControl) {
 
-        }
     }
 
     private void prepPaint() {
