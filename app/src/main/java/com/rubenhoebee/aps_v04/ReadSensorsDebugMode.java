@@ -25,17 +25,9 @@ import org.java_websocket.handshake.ServerHandshake;
 
 
 public class ReadSensorsDebugMode extends AppCompatActivity implements SensorEventListener, OnTouchListener{
-    private boolean gravity = false;
-    private boolean accelerometer = false;
-    private boolean ConnectionAccess = false;
-    private float GValueX = 0;
-    private float GValueY = 0;
-    private float GValueZ = 0;
-    private TextView GaxisX;
-    private TextView GaxisY;
-    private TextView GaxisZ;
-    private TextView XAngle;
-    private TextView YAngle;
+    private boolean accelerometer = false, ConnectionAccess = false, gravity = false;
+    private float GValueX = 0, GValueY = 0, GValueZ = 0;
+    private TextView GaxisX, GaxisY, GaxisZ, XAngle, YAngle;
     private WebSocketClient mWebSocketClient;
     private byte z = 0;
     private final byte zStep = 10;

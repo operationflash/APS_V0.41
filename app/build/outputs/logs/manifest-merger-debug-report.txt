@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidMan
 	android:name
 		ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:7:5-31:19
+ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:7:5-32:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:25:5-20
@@ -78,6 +78,10 @@ ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidMan
 		ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:30:13-56
 	android:name
 		ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:29:13-41
+activity#com.rubenhoebee.aps_v04.Activity_DrawJoystick
+ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:31:9-59
+	android:name
+		ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:31:19-56
 uses-sdk
 INJECTED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:21:5-23:78

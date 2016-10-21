@@ -15,12 +15,9 @@ import android.webkit.WebView;
 import android.widget.Toast;
 
 public class CameraViewActivity extends AppCompatActivity {
-    private float scale1;
-    private float scale2;
+    private float scale1, scale2;
     private final int duration = Toast.LENGTH_SHORT;
-    private int camera;
-    private int screenWidth;
-    private int screenHeight;
+    private int camera, screenWidth, screenHeight;
     private GestureDetectorCompat mDetector;
     private WebView webView;
 

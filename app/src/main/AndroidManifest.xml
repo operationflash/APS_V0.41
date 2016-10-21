@@ -28,6 +28,7 @@
         <activity
             android:name=".DrawJoystick"
             android:screenOrientation="sensorLandscape" />
+        <activity android:name=".Activity_DrawJoystick" />
     </application>
 
 </manifest>

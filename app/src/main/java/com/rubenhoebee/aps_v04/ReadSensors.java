@@ -21,6 +21,8 @@ import android.widget.Toast;
 import java.lang.Math;
 import java.net.URI;
 import java.net.URISyntaxException;
+
+import org.java_websocket.WebSocket;
 import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.drafts.Draft_17;
 import org.java_websocket.handshake.ServerHandshake;
@@ -30,14 +32,9 @@ public class ReadSensors extends AppCompatActivity implements
         SensorEventListener,
         OnTouchListener{
 
-    private boolean gravity = false;
-    private boolean accelerometer = false;
-    private boolean ConnectionAccess = false;
-    private float GValueX = 0;
-    private float GValueY = 0;
-    private float GValueZ = 0;
-    private TextView XAngle;
-    private TextView YAngle;
+    private boolean gravity = false, accelerometer = false, ConnectionAccess = false;;
+    private float GValueX = 0, GValueY = 0, GValueZ = 0;
+    private TextView XAngle, YAngle;
     private WebSocketClient mWebSocketClient;
     private byte z = 0;
     private GestureDetectorCompat mDetector;
@@ -85,7 +82,9 @@ public class ReadSensors extends AppCompatActivity implements
 
             @Override
             public void onOpen(ServerHandshake serverHandshake) {
-                mWebSocketClient.send("Login::Android::App"); //Login to server with the android login credentials
+                if (mWebSocketClient.getReadyState() == WebSocket.READYSTATE.OPEN) { //Ready to send data
+                    mWebSocketClient.send("Login::Android::App"); //Login to server with the android login credentials
+                }
                 //mWebSocketClient.send("ContinuousMovement::On");
             }
 
@@ -164,7 +163,6 @@ public class ReadSensors extends AppCompatActivity implements
         mWebSocketClient.connect();
     }
 
-
     @Override
     public void onSensorChanged(SensorEvent event) {
         if (gravity) {
@@ -192,7 +190,9 @@ public class ReadSensors extends AppCompatActivity implements
                 AValueY = 0;
             }
             String relative = "MoveL::" + String.valueOf(-AValueY) + "::" + String.valueOf(AValueX) + "::"  + String.valueOf(z)+ "::0::0::0::Rel";
-            mWebSocketClient.send(relative);
+            if (mWebSocketClient.getReadyState() == WebSocket.READYSTATE.OPEN) { //Ready to send data
+                mWebSocketClient.send(relative);
+            }
         }
     }
 
