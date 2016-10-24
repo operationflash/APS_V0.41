@@ -23,14 +23,14 @@ import java.util.logging.Handler;
 public class Activity_DrawJoystick extends SurfaceView implements Runnable{
     Thread thread = null;
     boolean CanDraw = false, BackSet = false, Kicked = false, RobotControl = true, OutWorkspace = false;
-    Paint backgroundPaint, textPaint, joyPaint, errorPaint;
+    Paint backgroundPaint, textPaint, joyPaint, errorPaint, restJoyPaint;
     Canvas canvas;
     SurfaceHolder surfaceHolder;
     private static final String TAG = "MyActivity";
-    private  int count, width, height, radius, joyradius, x2, y2,fontSize = 30, xV = 0, yV = 0, zV = 0;
+    private  int count, width, height, radius, joyradius, x2, y2,fontSize = 30;
     private float[] x={0,500,0,0,0,0,0,0,0,0}, y={0,500,0,0,0,0,0,0,0,0};
     private float midX,midY,squareX, roundX, textX;
-    private double angle,x3,y3;
+    private double angle,x3,y3, xV = 0, yV = 0, joySpeed = 0, zV = 0, deadzone = 0;
     private WebSocketClient mWebSocketClient;
     private String[] Split;
     private String ping ="Ping: 999", rCommand, rOldCommand;
@@ -63,6 +63,7 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
         prepPaint();
         radius = 250;
         joyradius = 75;
+        deadzone = 0.2 * radius;
         roundX = (float)width*((float)5/(float)6);
         squareX = (float) width*((float)1/(float)8);
         midX = (float)width*((float)1/(float)2);
@@ -190,37 +191,90 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
         for (int i = 0; i < count; i++) {
             x2 = ((int) x[i] - (int) roundX);
             y2 = ((int) y[i] - (int) midY);
+            joySpeed = Math.sqrt(Math.pow(x2, 2) + Math.pow(y2, 2));
+            /** right joystick */
             if ((Math.abs(x2) <= radius) && (Math.abs(y2) <= radius) && x[i] >= width / 2) { // Joystick circle
-                if (Math.sqrt(Math.pow(x2, 2) + Math.pow(y2, 2)) <= radius) {
+                if (Math.sqrt(Math.pow(x2, 2) + Math.pow(y2, 2)) <= deadzone){ // Deadzone
+                    canvas.drawCircle(roundX, midY, joyradius, restJoyPaint);
+                    xV = 0;
+                    yV = 0;
+                }
+                else if (Math.sqrt(Math.pow(x2, 2) + Math.pow(y2, 2)) <= radius) {
                     canvas.drawCircle(x[i], y[i], joyradius, joyPaint);
+                    angle = Math.atan2(y2, x2);
+                    if (angle >= 0 && angle <= 90) {
+                        if ( x[i] < roundX) { // SW
+                            Log.v(TAG, "Joystick  = SW");
+                            xV = Math.sin(angle) * joySpeed;
+                            yV = Math.cos(angle) * joySpeed;
+                        }
+                        else { // SE
+                            Log.v(TAG, "Joystick  = SE");
+                            xV = Math.sin(angle) * joySpeed;
+                            yV = Math.cos(angle) * joySpeed;
+                        }
+
+                    }
+                    else if (angle <= -0.5 * Math.PI && angle >= -Math.PI) { //NE
+                        angle = angle + Math.PI;
+                        xV = Math.sin(angle) * -joySpeed;
+                        yV = Math.cos(angle) * -joySpeed;
+                    }
+                    else if (angle <= 0 && angle >= -0.5 * Math.PI) { // NW
+                        angle = angle + 0.5 * Math.PI;
+                        xV = Math.cos(angle) * -joySpeed;
+                        yV = Math.sin(angle) * joySpeed;
+                    }
                 }
             } else if (x[i] >= width / 2) { // Right part of screen
                 angle = Math.atan2(y2, x2);
                 if (angle >= 0 && angle <= 90) {
-                    x3 = Math.cos(angle) * (double) radius + roundX;
-                    y3 = Math.sin(angle) * (double) radius + midY;
-                } else if (angle <= -0.5 * Math.PI && angle >= -Math.PI) {
+                    x3 = Math.cos(angle) * radius + roundX;
+                    y3 = Math.sin(angle) * radius + midY;
+                    if ( x[i] < roundX) { // SW
+
+                        xV = Math.sin(angle) * radius;
+                        yV = Math.cos(angle) * radius;
+                    }
+                    else { // SE
+                        xV = Math.sin(angle) * radius;
+                        yV = Math.cos(angle) * radius;
+                    }
+                } else if (angle <= -0.5 * Math.PI && angle >= -Math.PI) { //NE
                     angle = angle + Math.PI;
-                    x3 = -Math.cos(angle) * (double) radius + roundX;
-                    y3 = -Math.sin(angle) * (double) radius + midY;
-                } else if (angle <= 0 && angle >= -0.5 * Math.PI) {
+                    x3 = -Math.cos(angle) * radius + roundX;
+                    y3 = -Math.sin(angle) * radius + midY;
+                    xV = Math.sin(angle) * -radius;
+                    yV = Math.cos(angle) * -radius;
+                } else if (angle <= 0 && angle >= -0.5 * Math.PI) { // NW
                     angle = angle + 0.5 * Math.PI;
-                    x3 = Math.sin(angle) * (double) radius + roundX;
-                    y3 = -Math.cos(angle) * (double) radius + midY;
+                    x3 = Math.sin(angle) * radius + roundX;
+                    y3 = -Math.cos(angle) * radius + midY;
+                    xV = Math.cos(angle) * -radius;
+                    yV = Math.sin(angle) * radius;
                 }
                 canvas.drawCircle((int) x3, (int) y3, joyradius, joyPaint);
             }
-            if (x[i] < width / 2 && y[i] <= midY + radius && y[i] >= midY - radius) {
+            /**  // Left joystick */
+            if (x[i] < width / 2 && y[i] <= midY + 0.15 * radius && y[i] >= midY - 0.5 * deadzone) { // Deadzone
+                canvas.drawCircle(squareX, midY, joyradius, restJoyPaint);
+                zV = 0;
+            }
+            else if (x[i] < width / 2 && y[i] <= midY && y[i] >= midY - radius) { // Inside joystick square
                 canvas.drawCircle(squareX, y[i], joyradius, joyPaint);
-                yV = 0;
+                zV = -radius * (y[i] - midY) / 250;
             }
-            else if (x[i] < width / 2 && y[i] >= midY + radius){
+            else if (x[i] < width / 2 && y[i] <= midY + radius && y[i] >= midY) { // Inside joystick square
+                canvas.drawCircle(squareX, y[i], joyradius, joyPaint);
+                zV = -radius * (y[i] - midY) / 250;;
+            }
+            else if (x[i] < width / 2 && y[i] >= midY + radius){ // Outside joystick square
                 canvas.drawCircle(squareX, midY + radius, joyradius, joyPaint);
-                yV = -100;
+                zV = -radius;
             }
-            else if (x[i] < width / 2 && y[i] <= midY - radius) {
+            else if (x[i] < width / 2 && y[i] <= midY - radius) { // Outside joystick square
                 canvas.drawCircle(squareX , midY - radius, joyradius, joyPaint);
-                yV = 100;
+                zV = radius;
             }
         }
         rCommand = "MoveL::" + xV + "::" + yV + "::"  + zV + "::0::0::0::Rel";
@@ -273,6 +327,9 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
         joyPaint = new Paint();
         joyPaint.setColor(Color.RED);
         joyPaint.setStyle(Paint.Style.FILL);
+        restJoyPaint = new Paint();
+        restJoyPaint.setColor(Color.rgb(102,0,0));
+        restJoyPaint.setStyle(Paint.Style.FILL);
         textPaint = new Paint();
         textPaint.setColor(Color.GREEN);
         textPaint.setStyle(Paint.Style.FILL);
