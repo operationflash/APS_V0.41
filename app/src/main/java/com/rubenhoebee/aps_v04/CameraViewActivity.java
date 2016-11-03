@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.Display;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
+import android.view.View;
 import android.view.WindowManager;
 import android.webkit.WebView;
 import android.widget.Toast;
@@ -62,6 +63,12 @@ public class CameraViewActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(getApplicationContext(), toastText, duration);
         toast.show();
         mDetector = new GestureDetectorCompat(this, new MyGestureListener());
+        webView.setOnTouchListener(new View.OnTouchListener(){
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                return mDetector.onTouchEvent(event);
+            }
+        });
     }
 
     @Override

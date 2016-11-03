@@ -15,6 +15,7 @@ import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
+import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -40,6 +41,7 @@ public class ReadSensors extends AppCompatActivity implements
     private GestureDetectorCompat mDetector;
     private Toast toast;
     private final int duration = Toast.LENGTH_SHORT;
+    private WebView webView;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -47,6 +49,17 @@ public class ReadSensors extends AppCompatActivity implements
         setContentView(R.layout.activity_read_sensors);
         mDetector = new GestureDetectorCompat(this, new MyGestureListener());
         android.hardware.SensorManager sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        webView = (WebView) findViewById(R.id.streamFeed);
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.setInitialScale(150);
+        webView.loadUrl("http://149.201.4.25/html/stream3.html");
+        webView.setOnTouchListener(new View.OnTouchListener(){
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                return true;
+            }
+        });
+
         if (sensorManager.getDefaultSensor(Sensor.TYPE_GRAVITY) != null){ // Check if there is a gravity sensor
             Sensor gSensor = sensorManager.getDefaultSensor(Sensor.TYPE_GRAVITY);
             sensorManager.registerListener(this, gSensor, android.hardware.SensorManager.SENSOR_DELAY_NORMAL);
@@ -90,7 +103,6 @@ public class ReadSensors extends AppCompatActivity implements
 
             @Override
             public void onError (Exception e){
-
             }
 
             @Override
@@ -210,6 +222,7 @@ public class ReadSensors extends AppCompatActivity implements
         }
         return false;
     }
+
     @Override
     public void onBackPressed()
     {
@@ -217,6 +230,7 @@ public class ReadSensors extends AppCompatActivity implements
         ConnectionAccess = false;
         super.onBackPressed();
     }
+
     @Override
     public boolean dispatchKeyEvent(KeyEvent event) {
         int action = event.getAction();
@@ -244,6 +258,7 @@ public class ReadSensors extends AppCompatActivity implements
                 return super.dispatchKeyEvent(event);
         }
     }
+
     @Override
     public boolean onTouchEvent(MotionEvent event){
         this.mDetector.onTouchEvent(event);
@@ -251,10 +266,6 @@ public class ReadSensors extends AppCompatActivity implements
     }
 
     private class MyGestureListener extends GestureDetector.SimpleOnGestureListener {
-        @Override
-        public boolean onDown(MotionEvent event) {
-              return true;
-        }
 
         @Override
         public boolean onFling(MotionEvent event1, MotionEvent event2,
@@ -265,8 +276,8 @@ public class ReadSensors extends AppCompatActivity implements
 
             }
             else if (velocityX < -3500) {
-                Intent openAxisInterface = new Intent(ReadSensors.this, DrawJoystick.class);
-                startActivity(openAxisInterface);
+                Intent joystickInterface = new Intent(ReadSensors.this, DrawJoystick.class);
+                startActivity(joystickInterface);
             }
             return true;
         }

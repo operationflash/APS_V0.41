@@ -6,9 +6,11 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.support.v4.view.GestureDetectorCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.GestureDetector;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
@@ -19,23 +21,29 @@ import android.widget.Toast;
 import java.lang.Math;
 import java.net.URI;
 import java.net.URISyntaxException;
+
+import org.java_websocket.WebSocket;
 import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.drafts.Draft_17;
 import org.java_websocket.handshake.ServerHandshake;
 
 
-public class ReadSensorsDebugMode extends AppCompatActivity implements SensorEventListener, OnTouchListener{
+public class ReadSensorsDebugMode extends AppCompatActivity implements
+        SensorEventListener,
+        OnTouchListener{
     private boolean accelerometer = false, ConnectionAccess = false, gravity = false;
     private float GValueX = 0, GValueY = 0, GValueZ = 0;
     private TextView GaxisX, GaxisY, GaxisZ, XAngle, YAngle;
     private WebSocketClient mWebSocketClient;
     private byte z = 0;
     private final byte zStep = 10;
+    private GestureDetectorCompat mDetector;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_read_sensors_debug_mode);
+        mDetector = new GestureDetectorCompat(this, new MyGestureListener());
         android.hardware.SensorManager sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         if (sensorManager.getDefaultSensor(Sensor.TYPE_GRAVITY) != null){ // Check if there is a gravity sensor
             Context context = getApplicationContext();
@@ -85,10 +93,12 @@ public class ReadSensorsDebugMode extends AppCompatActivity implements SensorEve
 
             @Override
             public void onOpen(ServerHandshake serverHandshake) {
-                Log.i("Websocket", "Opened");
-                mWebSocketClient.send("Login::Android::App"); //Login to server with the android login credentials
+                if (mWebSocketClient.getReadyState() == WebSocket.READYSTATE.OPEN) { //Ready to send data
+                    mWebSocketClient.send("Login::Android::App"); //Login to server with the android login credentials
+                }
                 //mWebSocketClient.send("ContinuousMovement::On");
             }
+
 
             @Override
             public void onError (Exception e){
@@ -199,7 +209,9 @@ public class ReadSensorsDebugMode extends AppCompatActivity implements SensorEve
                 AValueY = 0;
             }
             String relative = "MoveL::" + String.valueOf(-AValueY) + "::" + String.valueOf(AValueX) + "::"  + String.valueOf(z)+ "::0::0::0::Rel";
-            mWebSocketClient.send(relative);
+            if (mWebSocketClient.getReadyState() == WebSocket.READYSTATE.OPEN) { //Ready to send data
+                mWebSocketClient.send(relative);
+            }
             //mWebSocketClient.send("ContinuousMovement::On");
         }
     }
@@ -251,6 +263,30 @@ public class ReadSensorsDebugMode extends AppCompatActivity implements SensorEve
             default:
                 z = 0;
                 return super.dispatchKeyEvent(event);
+        }
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event){
+        this.mDetector.onTouchEvent(event);
+        return super.onTouchEvent(event);
+    }
+
+    private class MyGestureListener extends GestureDetector.SimpleOnGestureListener {
+
+        @Override
+        public boolean onFling(MotionEvent event1, MotionEvent event2,
+                               float velocityX, float velocityY) {
+            if (velocityX > 3500) {
+                Intent openAxisInterface = new Intent(ReadSensorsDebugMode.this, DrawJoystick.class);
+                startActivity(openAxisInterface);
+
+            }
+            else if (velocityX < -3500) {
+                Intent joystickInterface = new Intent(ReadSensorsDebugMode.this, DrawJoystick.class);
+                startActivity(joystickInterface);
+            }
+            return true;
         }
     }
 }

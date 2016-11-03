@@ -1788,18 +1788,18 @@ containing a value of this type.
         public static final int Camera3btn=0x7f0b005d;
         public static final int Camera4btn=0x7f0b005a;
         public static final int CameraView=0x7f0b0056;
-        public static final int DeadBtn=0x7f0b006e;
-        public static final int GXOutput=0x7f0b0076;
-        public static final int GYOutput=0x7f0b0072;
-        public static final int GZOutput=0x7f0b0079;
-        public static final int Log=0x7f0b0074;
+        public static final int DeadBtn=0x7f0b0071;
+        public static final int GXOutput=0x7f0b0077;
+        public static final int GYOutput=0x7f0b0073;
+        public static final int GZOutput=0x7f0b007a;
+        public static final int Log=0x7f0b0075;
         public static final int PasswordInpt=0x7f0b005e;
         public static final int Ping=0x7f0b0066;
         public static final int TxtView=0x7f0b006b;
         public static final int UsernameInpt=0x7f0b0060;
-        public static final int XAngle=0x7f0b006f;
-        public static final int YAngle=0x7f0b0070;
-        public static final int action0=0x7f0b007a;
+        public static final int XAngle=0x7f0b006e;
+        public static final int YAngle=0x7f0b006f;
+        public static final int action0=0x7f0b007b;
         public static final int action_bar=0x7f0b0045;
         public static final int action_bar_activity_content=0x7f0b0000;
         public static final int action_bar_container=0x7f0b0044;
@@ -1808,7 +1808,7 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f0b0025;
         public static final int action_bar_title=0x7f0b0024;
         public static final int action_context_bar=0x7f0b0046;
-        public static final int action_divider=0x7f0b007e;
+        public static final int action_divider=0x7f0b007f;
         public static final int action_menu_divider=0x7f0b0002;
         public static final int action_menu_presenter=0x7f0b0003;
         public static final int action_mode_bar=0x7f0b0042;
@@ -1825,9 +1825,9 @@ containing a value of this type.
         public static final int button=0x7f0b005f;
         public static final int button2=0x7f0b0061;
         public static final int buttonPanel=0x7f0b002e;
-        public static final int cancel_action=0x7f0b007b;
+        public static final int cancel_action=0x7f0b007c;
         public static final int checkbox=0x7f0b003c;
-        public static final int chronometer=0x7f0b0081;
+        public static final int chronometer=0x7f0b0082;
         public static final int collapseActionView=0x7f0b001e;
         public static final int contentPanel=0x7f0b0034;
         public static final int custom=0x7f0b003a;
@@ -1837,7 +1837,7 @@ containing a value of this type.
         public static final int disableHome=0x7f0b000c;
         public static final int edit_query=0x7f0b0047;
         public static final int end=0x7f0b001b;
-        public static final int end_padder=0x7f0b0086;
+        public static final int end_padder=0x7f0b0087;
         public static final int expand_activities_button=0x7f0b0028;
         public static final int expanded_menu=0x7f0b003b;
         public static final int home=0x7f0b0004;
@@ -1847,12 +1847,12 @@ containing a value of this type.
         public static final int image=0x7f0b0029;
         public static final int imageView=0x7f0b0055;
         public static final int imageView2=0x7f0b0059;
-        public static final int info=0x7f0b0085;
-        public static final int line1=0x7f0b007f;
-        public static final int line3=0x7f0b0083;
+        public static final int info=0x7f0b0086;
+        public static final int line1=0x7f0b0080;
+        public static final int line3=0x7f0b0084;
         public static final int listMode=0x7f0b0009;
         public static final int list_item=0x7f0b002b;
-        public static final int media_actions=0x7f0b007d;
+        public static final int media_actions=0x7f0b007e;
         public static final int middle=0x7f0b001c;
         public static final int multiply=0x7f0b0014;
         public static final int never=0x7f0b0020;
@@ -1887,23 +1887,24 @@ containing a value of this type.
         public static final int src_atop=0x7f0b0016;
         public static final int src_in=0x7f0b0017;
         public static final int src_over=0x7f0b0018;
-        public static final int status_bar_latest_event_content=0x7f0b007c;
+        public static final int status_bar_latest_event_content=0x7f0b007d;
+        public static final int streamFeed=0x7f0b0070;
         public static final int submenuarrow=0x7f0b003f;
         public static final int submit_area=0x7f0b0050;
         public static final int tabMode=0x7f0b000b;
-        public static final int text=0x7f0b0084;
-        public static final int text2=0x7f0b0082;
+        public static final int text=0x7f0b0085;
+        public static final int text2=0x7f0b0083;
         public static final int textSpacerNoButtons=0x7f0b0037;
         public static final int textView=0x7f0b0057;
         public static final int textView11=0x7f0b006a;
         public static final int textView12=0x7f0b006d;
-        public static final int textView14=0x7f0b0073;
-        public static final int textView2=0x7f0b0075;
+        public static final int textView14=0x7f0b0074;
+        public static final int textView2=0x7f0b0076;
         public static final int textView3=0x7f0b0065;
-        public static final int textView7=0x7f0b0077;
-        public static final int textView8=0x7f0b0071;
-        public static final int textView9=0x7f0b0078;
-        public static final int time=0x7f0b0080;
+        public static final int textView7=0x7f0b0078;
+        public static final int textView8=0x7f0b0072;
+        public static final int textView9=0x7f0b0079;
+        public static final int time=0x7f0b0081;
         public static final int title=0x7f0b002d;
         public static final int title_template=0x7f0b0032;
         public static final int top=0x7f0b0023;
@@ -2368,35 +2369,35 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background com.rubenhoebee.aps_v04:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit com.rubenhoebee.aps_v04:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked com.rubenhoebee.aps_v04:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd com.rubenhoebee.aps_v04:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.rubenhoebee.aps_v04:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft com.rubenhoebee.aps_v04:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight com.rubenhoebee.aps_v04:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart com.rubenhoebee.aps_v04:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.rubenhoebee.aps_v04:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout com.rubenhoebee.aps_v04:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions com.rubenhoebee.aps_v04:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider com.rubenhoebee.aps_v04:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation com.rubenhoebee.aps_v04:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height com.rubenhoebee.aps_v04:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.rubenhoebee.aps_v04:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.rubenhoebee.aps_v04:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout com.rubenhoebee.aps_v04:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon com.rubenhoebee.aps_v04:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.rubenhoebee.aps_v04:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding com.rubenhoebee.aps_v04:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo com.rubenhoebee.aps_v04:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode com.rubenhoebee.aps_v04:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme com.rubenhoebee.aps_v04:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding com.rubenhoebee.aps_v04:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle com.rubenhoebee.aps_v04:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle com.rubenhoebee.aps_v04:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.rubenhoebee.aps_v04:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title com.rubenhoebee.aps_v04:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle com.rubenhoebee.aps_v04:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.rubenhoebee.aps_v03:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.rubenhoebee.aps_v03:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.rubenhoebee.aps_v03:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.rubenhoebee.aps_v03:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.rubenhoebee.aps_v03:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.rubenhoebee.aps_v03:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.rubenhoebee.aps_v03:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.rubenhoebee.aps_v03:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.rubenhoebee.aps_v03:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.rubenhoebee.aps_v03:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.rubenhoebee.aps_v03:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.rubenhoebee.aps_v03:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.rubenhoebee.aps_v03:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.rubenhoebee.aps_v03:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.rubenhoebee.aps_v03:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.rubenhoebee.aps_v03:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.rubenhoebee.aps_v03:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.rubenhoebee.aps_v03:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.rubenhoebee.aps_v03:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.rubenhoebee.aps_v03:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.rubenhoebee.aps_v03:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.rubenhoebee.aps_v03:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.rubenhoebee.aps_v03:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.rubenhoebee.aps_v03:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.rubenhoebee.aps_v03:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.rubenhoebee.aps_v03:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.rubenhoebee.aps_v03:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.rubenhoebee.aps_v03:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.rubenhoebee.aps_v03:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -2439,17 +2440,17 @@ containing a value of this type.
             0x7f01005a
         };
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#background}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:background
+          @attr name com.rubenhoebee.aps_v03:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2457,11 +2458,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.rubenhoebee.aps_v04:backgroundSplit
+          @attr name com.rubenhoebee.aps_v03:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2469,11 +2470,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.rubenhoebee.aps_v04:backgroundStacked
+          @attr name com.rubenhoebee.aps_v03:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2485,11 +2486,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:contentInsetEnd
+          @attr name com.rubenhoebee.aps_v03:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2501,11 +2502,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:contentInsetEndWithActions
+          @attr name com.rubenhoebee.aps_v03:contentInsetEndWithActions
         */
         public static final int ActionBar_contentInsetEndWithActions = 25;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2517,11 +2518,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:contentInsetLeft
+          @attr name com.rubenhoebee.aps_v03:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2533,11 +2534,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:contentInsetRight
+          @attr name com.rubenhoebee.aps_v03:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2549,11 +2550,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:contentInsetStart
+          @attr name com.rubenhoebee.aps_v03:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2565,21 +2566,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:contentInsetStartWithNavigation
+          @attr name com.rubenhoebee.aps_v03:contentInsetStartWithNavigation
         */
         public static final int ActionBar_contentInsetStartWithNavigation = 24;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:customNavigationLayout
+          @attr name com.rubenhoebee.aps_v03:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2597,21 +2598,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name com.rubenhoebee.aps_v04:displayOptions
+          @attr name com.rubenhoebee.aps_v03:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:divider
+          @attr name com.rubenhoebee.aps_v03:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2623,11 +2624,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:elevation
+          @attr name com.rubenhoebee.aps_v03:elevation
         */
         public static final int ActionBar_elevation = 26;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#height}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2639,11 +2640,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:height
+          @attr name com.rubenhoebee.aps_v03:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2653,51 +2654,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:hideOnContentScroll
+          @attr name com.rubenhoebee.aps_v03:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:homeAsUpIndicator
+          @attr name com.rubenhoebee.aps_v03:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 28;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:homeLayout
+          @attr name com.rubenhoebee.aps_v03:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:icon
+          @attr name com.rubenhoebee.aps_v03:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:indeterminateProgressStyle
+          @attr name com.rubenhoebee.aps_v03:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2709,21 +2710,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:itemPadding
+          @attr name com.rubenhoebee.aps_v03:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:logo
+          @attr name com.rubenhoebee.aps_v03:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2737,21 +2738,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name com.rubenhoebee.aps_v04:navigationMode
+          @attr name com.rubenhoebee.aps_v03:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:popupTheme
+          @attr name com.rubenhoebee.aps_v03:popupTheme
         */
         public static final int ActionBar_popupTheme = 27;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2763,21 +2764,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:progressBarPadding
+          @attr name com.rubenhoebee.aps_v03:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:progressBarStyle
+          @attr name com.rubenhoebee.aps_v03:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2787,21 +2788,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:subtitle
+          @attr name com.rubenhoebee.aps_v03:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:subtitleTextStyle
+          @attr name com.rubenhoebee.aps_v03:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#title}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2811,17 +2812,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:title
+          @attr name com.rubenhoebee.aps_v03:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:titleTextStyle
+          @attr name com.rubenhoebee.aps_v03:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -2873,12 +2874,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background com.rubenhoebee.aps_v04:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit com.rubenhoebee.aps_v04:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout com.rubenhoebee.aps_v04:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height com.rubenhoebee.aps_v04:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.rubenhoebee.aps_v04:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle com.rubenhoebee.aps_v04:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.rubenhoebee.aps_v03:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.rubenhoebee.aps_v03:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.rubenhoebee.aps_v03:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.rubenhoebee.aps_v03:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.rubenhoebee.aps_v03:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.rubenhoebee.aps_v03:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -2892,17 +2893,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#background}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:background
+          @attr name com.rubenhoebee.aps_v03:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2910,21 +2911,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.rubenhoebee.aps_v04:backgroundSplit
+          @attr name com.rubenhoebee.aps_v03:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:closeItemLayout
+          @attr name com.rubenhoebee.aps_v03:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#height}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2936,27 +2937,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:height
+          @attr name com.rubenhoebee.aps_v03:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:subtitleTextStyle
+          @attr name com.rubenhoebee.aps_v03:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:titleTextStyle
+          @attr name com.rubenhoebee.aps_v03:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -2965,8 +2966,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.rubenhoebee.aps_v04:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.rubenhoebee.aps_v04:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.rubenhoebee.aps_v03:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.rubenhoebee.aps_v03:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -2975,17 +2976,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001f, 0x7f010020
         };
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:expandActivityOverflowButtonDrawable
+          @attr name com.rubenhoebee.aps_v03:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2995,7 +2996,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:initialActivityCount
+          @attr name com.rubenhoebee.aps_v03:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -3005,11 +3006,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.rubenhoebee.aps_v04:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout com.rubenhoebee.aps_v04:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout com.rubenhoebee.aps_v04:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.rubenhoebee.aps_v04:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.rubenhoebee.aps_v04:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.rubenhoebee.aps_v03:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.rubenhoebee.aps_v03:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.rubenhoebee.aps_v03:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.rubenhoebee.aps_v03:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.rubenhoebee.aps_v03:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -3029,53 +3030,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:buttonPanelSideLayout
+          @attr name com.rubenhoebee.aps_v03:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:listItemLayout
+          @attr name com.rubenhoebee.aps_v03:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:listLayout
+          @attr name com.rubenhoebee.aps_v03:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:multiChoiceItemLayout
+          @attr name com.rubenhoebee.aps_v03:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:singleChoiceItemLayout
+          @attr name com.rubenhoebee.aps_v03:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppCompatImageView.
@@ -3085,7 +3086,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat com.rubenhoebee.aps_v04:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat com.rubenhoebee.aps_v03:srcCompat}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
@@ -3100,13 +3101,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:srcCompat
+          @attr name com.rubenhoebee.aps_v03:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
         /** Attributes that can be used with a AppCompatSeekBar.
@@ -3116,9 +3117,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMark com.rubenhoebee.aps_v04:tickMark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.rubenhoebee.aps_v04:tickMarkTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.rubenhoebee.aps_v04:tickMarkTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMark com.rubenhoebee.aps_v03:tickMark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.rubenhoebee.aps_v03:tickMarkTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.rubenhoebee.aps_v03:tickMarkTintMode}</code></td><td></td></tr>
            </table>
            @see #AppCompatSeekBar_android_thumb
            @see #AppCompatSeekBar_tickMark
@@ -3135,17 +3136,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatSeekBar_android_thumb = 0;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#tickMark}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#tickMark}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:tickMark
+          @attr name com.rubenhoebee.aps_v03:tickMark
         */
         public static final int AppCompatSeekBar_tickMark = 1;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#tickMarkTint}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#tickMarkTint}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -3156,11 +3157,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:tickMarkTint
+          @attr name com.rubenhoebee.aps_v03:tickMarkTint
         */
         public static final int AppCompatSeekBar_tickMarkTint = 2;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#tickMarkTintMode}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#tickMarkTintMode}
           attribute's value can be found in the {@link #AppCompatSeekBar} array.
 
 
@@ -3177,7 +3178,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.rubenhoebee.aps_v04:tickMarkTintMode
+          @attr name com.rubenhoebee.aps_v03:tickMarkTintMode
         */
         public static final int AppCompatSeekBar_tickMarkTintMode = 3;
         /** Attributes that can be used with a AppCompatTextHelper.
@@ -3255,7 +3256,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.rubenhoebee.aps_v04:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.rubenhoebee.aps_v03:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -3270,14 +3271,14 @@ containing a value of this type.
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.rubenhoebee.aps_v04:textAllCaps
+          @attr name com.rubenhoebee.aps_v03:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -3286,121 +3287,121 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.rubenhoebee.aps_v04:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.rubenhoebee.aps_v04:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.rubenhoebee.aps_v04:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.rubenhoebee.aps_v04:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.rubenhoebee.aps_v04:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.rubenhoebee.aps_v04:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.rubenhoebee.aps_v04:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.rubenhoebee.aps_v04:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.rubenhoebee.aps_v04:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.rubenhoebee.aps_v04:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.rubenhoebee.aps_v04:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.rubenhoebee.aps_v04:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.rubenhoebee.aps_v04:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.rubenhoebee.aps_v04:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.rubenhoebee.aps_v04:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.rubenhoebee.aps_v04:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.rubenhoebee.aps_v04:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.rubenhoebee.aps_v04:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.rubenhoebee.aps_v04:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.rubenhoebee.aps_v04:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.rubenhoebee.aps_v04:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.rubenhoebee.aps_v04:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.rubenhoebee.aps_v04:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.rubenhoebee.aps_v04:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.rubenhoebee.aps_v04:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.rubenhoebee.aps_v04:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.rubenhoebee.aps_v04:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.rubenhoebee.aps_v04:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.rubenhoebee.aps_v04:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.rubenhoebee.aps_v04:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.rubenhoebee.aps_v04:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.rubenhoebee.aps_v04:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.rubenhoebee.aps_v04:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.rubenhoebee.aps_v04:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.rubenhoebee.aps_v04:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.rubenhoebee.aps_v03:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.rubenhoebee.aps_v03:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.rubenhoebee.aps_v03:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.rubenhoebee.aps_v03:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.rubenhoebee.aps_v03:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.rubenhoebee.aps_v03:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.rubenhoebee.aps_v03:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.rubenhoebee.aps_v03:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.rubenhoebee.aps_v03:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.rubenhoebee.aps_v03:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.rubenhoebee.aps_v03:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.rubenhoebee.aps_v03:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.rubenhoebee.aps_v03:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.rubenhoebee.aps_v03:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.rubenhoebee.aps_v03:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.rubenhoebee.aps_v03:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.rubenhoebee.aps_v03:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.rubenhoebee.aps_v03:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.rubenhoebee.aps_v03:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.rubenhoebee.aps_v03:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.rubenhoebee.aps_v03:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.rubenhoebee.aps_v03:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.rubenhoebee.aps_v03:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.rubenhoebee.aps_v03:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.rubenhoebee.aps_v03:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.rubenhoebee.aps_v03:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.rubenhoebee.aps_v03:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.rubenhoebee.aps_v03:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.rubenhoebee.aps_v03:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.rubenhoebee.aps_v03:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.rubenhoebee.aps_v03:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.rubenhoebee.aps_v03:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.rubenhoebee.aps_v03:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.rubenhoebee.aps_v03:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.rubenhoebee.aps_v03:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.rubenhoebee.aps_v04:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.rubenhoebee.aps_v04:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.rubenhoebee.aps_v04:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.rubenhoebee.aps_v04:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.rubenhoebee.aps_v04:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.rubenhoebee.aps_v04:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.rubenhoebee.aps_v04:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.rubenhoebee.aps_v04:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.rubenhoebee.aps_v04:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.rubenhoebee.aps_v04:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.rubenhoebee.aps_v04:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent com.rubenhoebee.aps_v04:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.rubenhoebee.aps_v04:colorBackgroundFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.rubenhoebee.aps_v04:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.rubenhoebee.aps_v04:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.rubenhoebee.aps_v04:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.rubenhoebee.aps_v04:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.rubenhoebee.aps_v04:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.rubenhoebee.aps_v04:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.rubenhoebee.aps_v04:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground com.rubenhoebee.aps_v04:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.rubenhoebee.aps_v04:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.rubenhoebee.aps_v04:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.rubenhoebee.aps_v04:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.rubenhoebee.aps_v04:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.rubenhoebee.aps_v04:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.rubenhoebee.aps_v04:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.rubenhoebee.aps_v04:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor com.rubenhoebee.aps_v04:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.rubenhoebee.aps_v04:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.rubenhoebee.aps_v04:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.rubenhoebee.aps_v04:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.rubenhoebee.aps_v04:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.rubenhoebee.aps_v04:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.rubenhoebee.aps_v04:listMenuViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.rubenhoebee.aps_v04:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.rubenhoebee.aps_v04:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.rubenhoebee.aps_v04:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.rubenhoebee.aps_v04:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.rubenhoebee.aps_v04:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.rubenhoebee.aps_v04:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground com.rubenhoebee.aps_v04:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.rubenhoebee.aps_v04:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.rubenhoebee.aps_v04:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.rubenhoebee.aps_v04:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.rubenhoebee.aps_v04:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.rubenhoebee.aps_v04:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.rubenhoebee.aps_v04:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.rubenhoebee.aps_v04:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.rubenhoebee.aps_v04:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.rubenhoebee.aps_v04:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.rubenhoebee.aps_v04:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.rubenhoebee.aps_v04:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.rubenhoebee.aps_v04:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.rubenhoebee.aps_v04:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.rubenhoebee.aps_v04:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle com.rubenhoebee.aps_v04:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.rubenhoebee.aps_v04:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.rubenhoebee.aps_v04:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.rubenhoebee.aps_v04:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.rubenhoebee.aps_v04:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.rubenhoebee.aps_v04:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.rubenhoebee.aps_v04:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.rubenhoebee.aps_v04:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.rubenhoebee.aps_v04:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.rubenhoebee.aps_v04:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.rubenhoebee.aps_v04:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.rubenhoebee.aps_v04:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.rubenhoebee.aps_v04:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.rubenhoebee.aps_v04:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.rubenhoebee.aps_v04:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.rubenhoebee.aps_v04:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.rubenhoebee.aps_v04:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.rubenhoebee.aps_v04:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.rubenhoebee.aps_v04:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.rubenhoebee.aps_v04:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.rubenhoebee.aps_v04:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.rubenhoebee.aps_v04:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.rubenhoebee.aps_v03:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.rubenhoebee.aps_v03:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.rubenhoebee.aps_v03:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.rubenhoebee.aps_v03:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.rubenhoebee.aps_v03:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.rubenhoebee.aps_v03:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.rubenhoebee.aps_v03:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.rubenhoebee.aps_v03:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.rubenhoebee.aps_v03:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.rubenhoebee.aps_v03:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.rubenhoebee.aps_v03:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent com.rubenhoebee.aps_v03:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.rubenhoebee.aps_v03:colorBackgroundFloating}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.rubenhoebee.aps_v03:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.rubenhoebee.aps_v03:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.rubenhoebee.aps_v03:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.rubenhoebee.aps_v03:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.rubenhoebee.aps_v03:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.rubenhoebee.aps_v03:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.rubenhoebee.aps_v03:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground com.rubenhoebee.aps_v03:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.rubenhoebee.aps_v03:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.rubenhoebee.aps_v03:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.rubenhoebee.aps_v03:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.rubenhoebee.aps_v03:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.rubenhoebee.aps_v03:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.rubenhoebee.aps_v03:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.rubenhoebee.aps_v03:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor com.rubenhoebee.aps_v03:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.rubenhoebee.aps_v03:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.rubenhoebee.aps_v03:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.rubenhoebee.aps_v03:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.rubenhoebee.aps_v03:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.rubenhoebee.aps_v03:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.rubenhoebee.aps_v03:listMenuViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.rubenhoebee.aps_v03:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.rubenhoebee.aps_v03:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.rubenhoebee.aps_v03:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.rubenhoebee.aps_v03:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.rubenhoebee.aps_v03:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.rubenhoebee.aps_v03:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground com.rubenhoebee.aps_v03:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.rubenhoebee.aps_v03:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.rubenhoebee.aps_v03:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.rubenhoebee.aps_v03:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.rubenhoebee.aps_v03:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.rubenhoebee.aps_v03:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.rubenhoebee.aps_v03:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.rubenhoebee.aps_v03:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.rubenhoebee.aps_v03:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.rubenhoebee.aps_v03:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.rubenhoebee.aps_v03:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.rubenhoebee.aps_v03:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.rubenhoebee.aps_v03:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.rubenhoebee.aps_v03:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.rubenhoebee.aps_v03:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle com.rubenhoebee.aps_v03:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.rubenhoebee.aps_v03:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.rubenhoebee.aps_v03:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.rubenhoebee.aps_v03:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.rubenhoebee.aps_v03:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.rubenhoebee.aps_v03:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.rubenhoebee.aps_v03:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.rubenhoebee.aps_v03:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.rubenhoebee.aps_v03:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.rubenhoebee.aps_v03:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.rubenhoebee.aps_v03:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.rubenhoebee.aps_v03:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.rubenhoebee.aps_v03:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.rubenhoebee.aps_v03:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.rubenhoebee.aps_v03:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.rubenhoebee.aps_v03:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.rubenhoebee.aps_v03:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.rubenhoebee.aps_v03:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.rubenhoebee.aps_v03:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.rubenhoebee.aps_v03:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.rubenhoebee.aps_v03:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.rubenhoebee.aps_v03:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -3550,37 +3551,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010099, 0x7f01009a, 0x7f01009b
         };
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionBarDivider
+          @attr name com.rubenhoebee.aps_v03:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionBarItemBackground
+          @attr name com.rubenhoebee.aps_v03:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionBarPopupTheme
+          @attr name com.rubenhoebee.aps_v03:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3600,111 +3601,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name com.rubenhoebee.aps_v04:actionBarSize
+          @attr name com.rubenhoebee.aps_v03:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionBarSplitStyle
+          @attr name com.rubenhoebee.aps_v03:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionBarStyle
+          @attr name com.rubenhoebee.aps_v03:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionBarTabBarStyle
+          @attr name com.rubenhoebee.aps_v03:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionBarTabStyle
+          @attr name com.rubenhoebee.aps_v03:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionBarTabTextStyle
+          @attr name com.rubenhoebee.aps_v03:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionBarTheme
+          @attr name com.rubenhoebee.aps_v03:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionBarWidgetTheme
+          @attr name com.rubenhoebee.aps_v03:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionButtonStyle
+          @attr name com.rubenhoebee.aps_v03:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionDropDownStyle
+          @attr name com.rubenhoebee.aps_v03:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 46;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionMenuTextAppearance
+          @attr name com.rubenhoebee.aps_v03:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3712,181 +3713,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionMenuTextColor
+          @attr name com.rubenhoebee.aps_v03:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionModeBackground
+          @attr name com.rubenhoebee.aps_v03:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionModeCloseButtonStyle
+          @attr name com.rubenhoebee.aps_v03:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionModeCloseDrawable
+          @attr name com.rubenhoebee.aps_v03:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionModeCopyDrawable
+          @attr name com.rubenhoebee.aps_v03:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionModeCutDrawable
+          @attr name com.rubenhoebee.aps_v03:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionModeFindDrawable
+          @attr name com.rubenhoebee.aps_v03:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionModePasteDrawable
+          @attr name com.rubenhoebee.aps_v03:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionModePopupWindowStyle
+          @attr name com.rubenhoebee.aps_v03:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionModeSelectAllDrawable
+          @attr name com.rubenhoebee.aps_v03:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionModeShareDrawable
+          @attr name com.rubenhoebee.aps_v03:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionModeSplitBackground
+          @attr name com.rubenhoebee.aps_v03:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionModeStyle
+          @attr name com.rubenhoebee.aps_v03:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionModeWebSearchDrawable
+          @attr name com.rubenhoebee.aps_v03:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionOverflowButtonStyle
+          @attr name com.rubenhoebee.aps_v03:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionOverflowMenuStyle
+          @attr name com.rubenhoebee.aps_v03:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:activityChooserViewStyle
+          @attr name com.rubenhoebee.aps_v03:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:alertDialogButtonGroupStyle
+          @attr name com.rubenhoebee.aps_v03:alertDialogButtonGroupStyle
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 94;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -3896,27 +3897,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:alertDialogCenterButtons
+          @attr name com.rubenhoebee.aps_v03:alertDialogCenterButtons
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 95;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:alertDialogStyle
+          @attr name com.rubenhoebee.aps_v03:alertDialogStyle
         */
         public static final int AppCompatTheme_alertDialogStyle = 93;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:alertDialogTheme
+          @attr name com.rubenhoebee.aps_v03:alertDialogTheme
         */
         public static final int AppCompatTheme_alertDialogTheme = 96;
         /**
@@ -3932,117 +3933,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:autoCompleteTextViewStyle
+          @attr name com.rubenhoebee.aps_v03:autoCompleteTextViewStyle
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 101;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:borderlessButtonStyle
+          @attr name com.rubenhoebee.aps_v03:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 55;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:buttonBarButtonStyle
+          @attr name com.rubenhoebee.aps_v03:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:buttonBarNegativeButtonStyle
+          @attr name com.rubenhoebee.aps_v03:buttonBarNegativeButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:buttonBarNeutralButtonStyle
+          @attr name com.rubenhoebee.aps_v03:buttonBarNeutralButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:buttonBarPositiveButtonStyle
+          @attr name com.rubenhoebee.aps_v03:buttonBarPositiveButtonStyle
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:buttonBarStyle
+          @attr name com.rubenhoebee.aps_v03:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:buttonStyle
+          @attr name com.rubenhoebee.aps_v03:buttonStyle
         */
         public static final int AppCompatTheme_buttonStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:buttonStyleSmall
+          @attr name com.rubenhoebee.aps_v03:buttonStyleSmall
         */
         public static final int AppCompatTheme_buttonStyleSmall = 103;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:checkboxStyle
+          @attr name com.rubenhoebee.aps_v03:checkboxStyle
         */
         public static final int AppCompatTheme_checkboxStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:checkedTextViewStyle
+          @attr name com.rubenhoebee.aps_v03:checkedTextViewStyle
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4053,11 +4054,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:colorAccent
+          @attr name com.rubenhoebee.aps_v03:colorAccent
         */
         public static final int AppCompatTheme_colorAccent = 85;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#colorBackgroundFloating}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#colorBackgroundFloating}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4068,11 +4069,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:colorBackgroundFloating
+          @attr name com.rubenhoebee.aps_v03:colorBackgroundFloating
         */
         public static final int AppCompatTheme_colorBackgroundFloating = 92;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4083,11 +4084,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:colorButtonNormal
+          @attr name com.rubenhoebee.aps_v03:colorButtonNormal
         */
         public static final int AppCompatTheme_colorButtonNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4098,11 +4099,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:colorControlActivated
+          @attr name com.rubenhoebee.aps_v03:colorControlActivated
         */
         public static final int AppCompatTheme_colorControlActivated = 87;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4113,11 +4114,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:colorControlHighlight
+          @attr name com.rubenhoebee.aps_v03:colorControlHighlight
         */
         public static final int AppCompatTheme_colorControlHighlight = 88;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4128,11 +4129,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:colorControlNormal
+          @attr name com.rubenhoebee.aps_v03:colorControlNormal
         */
         public static final int AppCompatTheme_colorControlNormal = 86;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4143,11 +4144,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:colorPrimary
+          @attr name com.rubenhoebee.aps_v03:colorPrimary
         */
         public static final int AppCompatTheme_colorPrimary = 83;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4158,11 +4159,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:colorPrimaryDark
+          @attr name com.rubenhoebee.aps_v03:colorPrimaryDark
         */
         public static final int AppCompatTheme_colorPrimaryDark = 84;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4173,21 +4174,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:colorSwitchThumbNormal
+          @attr name com.rubenhoebee.aps_v03:colorSwitchThumbNormal
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 90;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:controlBackground
+          @attr name com.rubenhoebee.aps_v03:controlBackground
         */
         public static final int AppCompatTheme_controlBackground = 91;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4199,51 +4200,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:dialogPreferredPadding
+          @attr name com.rubenhoebee.aps_v03:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 44;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:dialogTheme
+          @attr name com.rubenhoebee.aps_v03:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 43;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:dividerHorizontal
+          @attr name com.rubenhoebee.aps_v03:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 57;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:dividerVertical
+          @attr name com.rubenhoebee.aps_v03:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 56;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:dropDownListViewStyle
+          @attr name com.rubenhoebee.aps_v03:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4255,21 +4256,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:dropdownListPreferredItemHeight
+          @attr name com.rubenhoebee.aps_v03:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 47;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:editTextBackground
+          @attr name com.rubenhoebee.aps_v03:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 64;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4277,81 +4278,81 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.rubenhoebee.aps_v04:editTextColor
+          @attr name com.rubenhoebee.aps_v03:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 63;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:editTextStyle
+          @attr name com.rubenhoebee.aps_v03:editTextStyle
         */
         public static final int AppCompatTheme_editTextStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:homeAsUpIndicator
+          @attr name com.rubenhoebee.aps_v03:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 49;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:imageButtonStyle
+          @attr name com.rubenhoebee.aps_v03:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 65;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:listChoiceBackgroundIndicator
+          @attr name com.rubenhoebee.aps_v03:listChoiceBackgroundIndicator
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 82;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:listDividerAlertDialog
+          @attr name com.rubenhoebee.aps_v03:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 45;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#listMenuViewStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#listMenuViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:listMenuViewStyle
+          @attr name com.rubenhoebee.aps_v03:listMenuViewStyle
         */
         public static final int AppCompatTheme_listMenuViewStyle = 114;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:listPopupWindowStyle
+          @attr name com.rubenhoebee.aps_v03:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 76;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4363,11 +4364,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:listPreferredItemHeight
+          @attr name com.rubenhoebee.aps_v03:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 70;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4379,11 +4380,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:listPreferredItemHeightLarge
+          @attr name com.rubenhoebee.aps_v03:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 72;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4395,11 +4396,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:listPreferredItemHeightSmall
+          @attr name com.rubenhoebee.aps_v03:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 71;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4411,11 +4412,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:listPreferredItemPaddingLeft
+          @attr name com.rubenhoebee.aps_v03:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 73;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4427,31 +4428,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:listPreferredItemPaddingRight
+          @attr name com.rubenhoebee.aps_v03:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 74;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:panelBackground
+          @attr name com.rubenhoebee.aps_v03:panelBackground
         */
         public static final int AppCompatTheme_panelBackground = 79;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:panelMenuListTheme
+          @attr name com.rubenhoebee.aps_v03:panelMenuListTheme
         */
         public static final int AppCompatTheme_panelMenuListTheme = 81;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4463,211 +4464,211 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:panelMenuListWidth
+          @attr name com.rubenhoebee.aps_v03:panelMenuListWidth
         */
         public static final int AppCompatTheme_panelMenuListWidth = 80;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:popupMenuStyle
+          @attr name com.rubenhoebee.aps_v03:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:popupWindowStyle
+          @attr name com.rubenhoebee.aps_v03:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 62;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:radioButtonStyle
+          @attr name com.rubenhoebee.aps_v03:radioButtonStyle
         */
         public static final int AppCompatTheme_radioButtonStyle = 107;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:ratingBarStyle
+          @attr name com.rubenhoebee.aps_v03:ratingBarStyle
         */
         public static final int AppCompatTheme_ratingBarStyle = 108;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:ratingBarStyleIndicator
+          @attr name com.rubenhoebee.aps_v03:ratingBarStyleIndicator
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 109;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:ratingBarStyleSmall
+          @attr name com.rubenhoebee.aps_v03:ratingBarStyleSmall
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 110;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:searchViewStyle
+          @attr name com.rubenhoebee.aps_v03:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 69;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:seekBarStyle
+          @attr name com.rubenhoebee.aps_v03:seekBarStyle
         */
         public static final int AppCompatTheme_seekBarStyle = 111;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:selectableItemBackground
+          @attr name com.rubenhoebee.aps_v03:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 53;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:selectableItemBackgroundBorderless
+          @attr name com.rubenhoebee.aps_v03:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 54;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:spinnerDropDownItemStyle
+          @attr name com.rubenhoebee.aps_v03:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 48;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:spinnerStyle
+          @attr name com.rubenhoebee.aps_v03:spinnerStyle
         */
         public static final int AppCompatTheme_spinnerStyle = 112;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:switchStyle
+          @attr name com.rubenhoebee.aps_v03:switchStyle
         */
         public static final int AppCompatTheme_switchStyle = 113;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:textAppearanceLargePopupMenu
+          @attr name com.rubenhoebee.aps_v03:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:textAppearanceListItem
+          @attr name com.rubenhoebee.aps_v03:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 77;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:textAppearanceListItemSmall
+          @attr name com.rubenhoebee.aps_v03:textAppearanceListItemSmall
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 78;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#textAppearancePopupMenuHeader}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#textAppearancePopupMenuHeader}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:textAppearancePopupMenuHeader
+          @attr name com.rubenhoebee.aps_v03:textAppearancePopupMenuHeader
         */
         public static final int AppCompatTheme_textAppearancePopupMenuHeader = 42;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:textAppearanceSearchResultSubtitle
+          @attr name com.rubenhoebee.aps_v03:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 67;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:textAppearanceSearchResultTitle
+          @attr name com.rubenhoebee.aps_v03:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 66;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:textAppearanceSmallPopupMenu
+          @attr name com.rubenhoebee.aps_v03:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4675,11 +4676,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.rubenhoebee.aps_v04:textColorAlertDialogListItem
+          @attr name com.rubenhoebee.aps_v03:textColorAlertDialogListItem
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 97;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4687,31 +4688,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name com.rubenhoebee.aps_v04:textColorSearchUrl
+          @attr name com.rubenhoebee.aps_v03:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 68;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:toolbarNavigationButtonStyle
+          @attr name com.rubenhoebee.aps_v03:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:toolbarStyle
+          @attr name com.rubenhoebee.aps_v03:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4721,11 +4722,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:windowActionBar
+          @attr name com.rubenhoebee.aps_v03:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4735,11 +4736,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:windowActionBarOverlay
+          @attr name com.rubenhoebee.aps_v03:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4749,11 +4750,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:windowActionModeOverlay
+          @attr name com.rubenhoebee.aps_v03:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4768,11 +4769,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:windowFixedHeightMajor
+          @attr name com.rubenhoebee.aps_v03:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4787,11 +4788,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:windowFixedHeightMinor
+          @attr name com.rubenhoebee.aps_v03:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4806,11 +4807,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:windowFixedWidthMajor
+          @attr name com.rubenhoebee.aps_v03:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4825,11 +4826,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:windowFixedWidthMinor
+          @attr name com.rubenhoebee.aps_v03:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4844,11 +4845,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:windowMinWidthMajor
+          @attr name com.rubenhoebee.aps_v03:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4863,11 +4864,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:windowMinWidthMinor
+          @attr name com.rubenhoebee.aps_v03:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4877,7 +4878,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:windowNoTitle
+          @attr name com.rubenhoebee.aps_v03:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -4886,7 +4887,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.rubenhoebee.aps_v04:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.rubenhoebee.aps_v03:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -4894,7 +4895,7 @@ containing a value of this type.
             0x7f01009c
         };
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -4904,7 +4905,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:allowStacking
+          @attr name com.rubenhoebee.aps_v03:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a ColorStateListItem.
@@ -4913,7 +4914,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ColorStateListItem_alpha com.rubenhoebee.aps_v04:alpha}</code></td><td></td></tr>
+           <tr><td><code>{@link #ColorStateListItem_alpha com.rubenhoebee.aps_v03:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
            <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
            </table>
@@ -4925,7 +4926,7 @@ containing a value of this type.
             0x010101a5, 0x0101031f, 0x7f01009d
         };
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#alpha}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#alpha}
           attribute's value can be found in the {@link #ColorStateListItem} array.
 
 
@@ -4935,7 +4936,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:alpha
+          @attr name com.rubenhoebee.aps_v03:alpha
         */
         public static final int ColorStateListItem_alpha = 2;
         /**
@@ -4957,8 +4958,8 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint com.rubenhoebee.aps_v04:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode com.rubenhoebee.aps_v04:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint com.rubenhoebee.aps_v03:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode com.rubenhoebee.aps_v03:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -4974,7 +4975,7 @@ containing a value of this type.
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -4985,11 +4986,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:buttonTint
+          @attr name com.rubenhoebee.aps_v03:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -5005,7 +5006,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.rubenhoebee.aps_v04:buttonTintMode
+          @attr name com.rubenhoebee.aps_v03:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -5014,14 +5015,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.rubenhoebee.aps_v04:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.rubenhoebee.aps_v04:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength com.rubenhoebee.aps_v04:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color com.rubenhoebee.aps_v04:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.rubenhoebee.aps_v04:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.rubenhoebee.aps_v04:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.rubenhoebee.aps_v04:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness com.rubenhoebee.aps_v04:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.rubenhoebee.aps_v03:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.rubenhoebee.aps_v03:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength com.rubenhoebee.aps_v03:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.rubenhoebee.aps_v03:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.rubenhoebee.aps_v03:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.rubenhoebee.aps_v03:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.rubenhoebee.aps_v03:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.rubenhoebee.aps_v03:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -5037,7 +5038,7 @@ containing a value of this type.
             0x7f0100a4, 0x7f0100a5, 0x7f0100a6, 0x7f0100a7
         };
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5049,11 +5050,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:arrowHeadLength
+          @attr name com.rubenhoebee.aps_v03:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5065,11 +5066,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:arrowShaftLength
+          @attr name com.rubenhoebee.aps_v03:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5081,11 +5082,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:barLength
+          @attr name com.rubenhoebee.aps_v03:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#color}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5096,11 +5097,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:color
+          @attr name com.rubenhoebee.aps_v03:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5112,11 +5113,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:drawableSize
+          @attr name com.rubenhoebee.aps_v03:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5128,11 +5129,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:gapBetweenBars
+          @attr name com.rubenhoebee.aps_v03:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5142,11 +5143,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:spinBars
+          @attr name com.rubenhoebee.aps_v03:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -5158,7 +5159,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:thickness
+          @attr name com.rubenhoebee.aps_v03:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -5172,10 +5173,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider com.rubenhoebee.aps_v04:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.rubenhoebee.aps_v04:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.rubenhoebee.aps_v04:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.rubenhoebee.aps_v04:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.rubenhoebee.aps_v03:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.rubenhoebee.aps_v03:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.rubenhoebee.aps_v03:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.rubenhoebee.aps_v03:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -5223,17 +5224,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:divider
+          @attr name com.rubenhoebee.aps_v03:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5245,11 +5246,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:dividerPadding
+          @attr name com.rubenhoebee.aps_v03:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5259,11 +5260,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:measureWithLargestChild
+          @attr name com.rubenhoebee.aps_v03:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -5278,7 +5279,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name com.rubenhoebee.aps_v04:showDividers
+          @attr name com.rubenhoebee.aps_v03:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -5417,9 +5418,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout com.rubenhoebee.aps_v04:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass com.rubenhoebee.aps_v04:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass com.rubenhoebee.aps_v04:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.rubenhoebee.aps_v03:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.rubenhoebee.aps_v03:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.rubenhoebee.aps_v03:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -5433,7 +5434,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction com.rubenhoebee.aps_v04:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.rubenhoebee.aps_v03:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -5461,17 +5462,17 @@ containing a value of this type.
             0x7f0100ae
         };
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:actionLayout
+          @attr name com.rubenhoebee.aps_v03:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -5481,11 +5482,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:actionProviderClass
+          @attr name com.rubenhoebee.aps_v03:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -5495,7 +5496,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:actionViewClass
+          @attr name com.rubenhoebee.aps_v03:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -5577,7 +5578,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -5593,7 +5594,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name com.rubenhoebee.aps_v04:showAsAction
+          @attr name com.rubenhoebee.aps_v03:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -5609,8 +5610,8 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing com.rubenhoebee.aps_v04:preserveIconSpacing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_subMenuArrow com.rubenhoebee.aps_v04:subMenuArrow}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.rubenhoebee.aps_v03:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_subMenuArrow com.rubenhoebee.aps_v03:subMenuArrow}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -5670,7 +5671,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -5680,17 +5681,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:preserveIconSpacing
+          @attr name com.rubenhoebee.aps_v03:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#subMenuArrow}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#subMenuArrow}
           attribute's value can be found in the {@link #MenuView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:subMenuArrow
+          @attr name com.rubenhoebee.aps_v03:subMenuArrow
         */
         public static final int MenuView_subMenuArrow = 8;
         /** Attributes that can be used with a PopupWindow.
@@ -5701,7 +5702,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor com.rubenhoebee.aps_v04:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.rubenhoebee.aps_v03:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupAnimationStyle
            @see #PopupWindow_android_popupBackground
@@ -5723,7 +5724,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -5733,7 +5734,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:overlapAnchor
+          @attr name com.rubenhoebee.aps_v03:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 2;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -5742,7 +5743,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.rubenhoebee.aps_v04:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.rubenhoebee.aps_v03:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -5750,7 +5751,7 @@ containing a value of this type.
             0x7f0100b2
         };
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -5760,7 +5761,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:state_above_anchor
+          @attr name com.rubenhoebee.aps_v03:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a SearchView.
@@ -5773,19 +5774,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon com.rubenhoebee.aps_v04:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon com.rubenhoebee.aps_v04:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint com.rubenhoebee.aps_v04:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon com.rubenhoebee.aps_v04:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault com.rubenhoebee.aps_v04:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout com.rubenhoebee.aps_v04:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground com.rubenhoebee.aps_v04:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint com.rubenhoebee.aps_v04:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon com.rubenhoebee.aps_v04:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon com.rubenhoebee.aps_v04:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground com.rubenhoebee.aps_v04:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout com.rubenhoebee.aps_v04:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon com.rubenhoebee.aps_v04:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.rubenhoebee.aps_v03:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.rubenhoebee.aps_v03:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint com.rubenhoebee.aps_v03:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.rubenhoebee.aps_v03:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.rubenhoebee.aps_v03:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.rubenhoebee.aps_v03:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.rubenhoebee.aps_v03:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.rubenhoebee.aps_v03:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.rubenhoebee.aps_v03:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.rubenhoebee.aps_v03:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.rubenhoebee.aps_v03:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.rubenhoebee.aps_v03:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.rubenhoebee.aps_v03:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -5837,27 +5838,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:closeIcon
+          @attr name com.rubenhoebee.aps_v03:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:commitIcon
+          @attr name com.rubenhoebee.aps_v03:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5867,21 +5868,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:defaultQueryHint
+          @attr name com.rubenhoebee.aps_v03:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:goIcon
+          @attr name com.rubenhoebee.aps_v03:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5891,31 +5892,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:iconifiedByDefault
+          @attr name com.rubenhoebee.aps_v03:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:layout
+          @attr name com.rubenhoebee.aps_v03:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:queryBackground
+          @attr name com.rubenhoebee.aps_v03:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -5925,57 +5926,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:queryHint
+          @attr name com.rubenhoebee.aps_v03:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:searchHintIcon
+          @attr name com.rubenhoebee.aps_v03:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:searchIcon
+          @attr name com.rubenhoebee.aps_v03:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:submitBackground
+          @attr name com.rubenhoebee.aps_v03:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:suggestionRowLayout
+          @attr name com.rubenhoebee.aps_v03:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:voiceIcon
+          @attr name com.rubenhoebee.aps_v03:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a Spinner.
@@ -5988,7 +5989,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme com.rubenhoebee.aps_v04:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme com.rubenhoebee.aps_v03:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -6025,13 +6026,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:popupTheme
+          @attr name com.rubenhoebee.aps_v03:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
@@ -6043,17 +6044,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText com.rubenhoebee.aps_v04:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack com.rubenhoebee.aps_v04:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.rubenhoebee.aps_v04:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding com.rubenhoebee.aps_v04:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.rubenhoebee.aps_v04:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.rubenhoebee.aps_v04:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTint com.rubenhoebee.aps_v04:thumbTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTintMode com.rubenhoebee.aps_v04:thumbTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track com.rubenhoebee.aps_v04:track}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTint com.rubenhoebee.aps_v04:trackTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_trackTintMode com.rubenhoebee.aps_v04:trackTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.rubenhoebee.aps_v03:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.rubenhoebee.aps_v03:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.rubenhoebee.aps_v03:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.rubenhoebee.aps_v03:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.rubenhoebee.aps_v03:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.rubenhoebee.aps_v03:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTint com.rubenhoebee.aps_v03:thumbTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTintMode com.rubenhoebee.aps_v03:thumbTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.rubenhoebee.aps_v03:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTint com.rubenhoebee.aps_v03:trackTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_trackTintMode com.rubenhoebee.aps_v03:trackTintMode}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -6095,7 +6096,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6105,11 +6106,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:showText
+          @attr name com.rubenhoebee.aps_v03:showText
         */
         public static final int SwitchCompat_showText = 13;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6119,11 +6120,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:splitTrack
+          @attr name com.rubenhoebee.aps_v03:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 12;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6135,11 +6136,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:switchMinWidth
+          @attr name com.rubenhoebee.aps_v03:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 10;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6151,21 +6152,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:switchPadding
+          @attr name com.rubenhoebee.aps_v03:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 11;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:switchTextAppearance
+          @attr name com.rubenhoebee.aps_v03:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6177,11 +6178,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:thumbTextPadding
+          @attr name com.rubenhoebee.aps_v03:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#thumbTint}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#thumbTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6192,11 +6193,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:thumbTint
+          @attr name com.rubenhoebee.aps_v03:thumbTint
         */
         public static final int SwitchCompat_thumbTint = 3;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#thumbTintMode}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#thumbTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6213,21 +6214,21 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.rubenhoebee.aps_v04:thumbTintMode
+          @attr name com.rubenhoebee.aps_v03:thumbTintMode
         */
         public static final int SwitchCompat_thumbTintMode = 4;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#track}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:track
+          @attr name com.rubenhoebee.aps_v03:track
         */
         public static final int SwitchCompat_track = 5;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#trackTint}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#trackTint}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6238,11 +6239,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:trackTint
+          @attr name com.rubenhoebee.aps_v03:trackTint
         */
         public static final int SwitchCompat_trackTint = 6;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#trackTintMode}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#trackTintMode}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -6259,7 +6260,7 @@ containing a value of this type.
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 <tr><td><code>add</code></td><td>16</td><td></td></tr>
 </table>
-          @attr name com.rubenhoebee.aps_v04:trackTintMode
+          @attr name com.rubenhoebee.aps_v03:trackTintMode
         */
         public static final int SwitchCompat_trackTintMode = 7;
         /** Attributes that can be used with a TextAppearance.
@@ -6276,7 +6277,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps com.rubenhoebee.aps_v04:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.rubenhoebee.aps_v03:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -6342,14 +6343,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name com.rubenhoebee.aps_v04:textAllCaps
+          @attr name com.rubenhoebee.aps_v03:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 8;
         /** Attributes that can be used with a Toolbar.
@@ -6360,33 +6361,33 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_buttonGravity com.rubenhoebee.aps_v04:buttonGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription com.rubenhoebee.aps_v04:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon com.rubenhoebee.aps_v04:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd com.rubenhoebee.aps_v04:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.rubenhoebee.aps_v04:contentInsetEndWithActions}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft com.rubenhoebee.aps_v04:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight com.rubenhoebee.aps_v04:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart com.rubenhoebee.aps_v04:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.rubenhoebee.aps_v04:contentInsetStartWithNavigation}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo com.rubenhoebee.aps_v04:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription com.rubenhoebee.aps_v04:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight com.rubenhoebee.aps_v04:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription com.rubenhoebee.aps_v04:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon com.rubenhoebee.aps_v04:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme com.rubenhoebee.aps_v04:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle com.rubenhoebee.aps_v04:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.rubenhoebee.aps_v04:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor com.rubenhoebee.aps_v04:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title com.rubenhoebee.aps_v04:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargin com.rubenhoebee.aps_v04:titleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom com.rubenhoebee.aps_v04:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd com.rubenhoebee.aps_v04:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart com.rubenhoebee.aps_v04:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop com.rubenhoebee.aps_v04:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins com.rubenhoebee.aps_v04:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance com.rubenhoebee.aps_v04:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor com.rubenhoebee.aps_v04:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_buttonGravity com.rubenhoebee.aps_v03:buttonGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.rubenhoebee.aps_v03:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.rubenhoebee.aps_v03:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.rubenhoebee.aps_v03:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.rubenhoebee.aps_v03:contentInsetEndWithActions}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.rubenhoebee.aps_v03:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.rubenhoebee.aps_v03:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.rubenhoebee.aps_v03:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.rubenhoebee.aps_v03:contentInsetStartWithNavigation}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo com.rubenhoebee.aps_v03:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription com.rubenhoebee.aps_v03:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.rubenhoebee.aps_v03:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.rubenhoebee.aps_v03:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.rubenhoebee.aps_v03:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.rubenhoebee.aps_v03:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.rubenhoebee.aps_v03:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.rubenhoebee.aps_v03:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor com.rubenhoebee.aps_v03:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.rubenhoebee.aps_v03:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargin com.rubenhoebee.aps_v03:titleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.rubenhoebee.aps_v03:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.rubenhoebee.aps_v03:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.rubenhoebee.aps_v03:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.rubenhoebee.aps_v03:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.rubenhoebee.aps_v03:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.rubenhoebee.aps_v03:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor com.rubenhoebee.aps_v03:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -6441,7 +6442,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#buttonGravity}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#buttonGravity}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6454,11 +6455,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>top</code></td><td>0x30</td><td></td></tr>
 <tr><td><code>bottom</code></td><td>0x50</td><td></td></tr>
 </table>
-          @attr name com.rubenhoebee.aps_v04:buttonGravity
+          @attr name com.rubenhoebee.aps_v03:buttonGravity
         */
         public static final int Toolbar_buttonGravity = 21;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6468,21 +6469,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:collapseContentDescription
+          @attr name com.rubenhoebee.aps_v03:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 23;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:collapseIcon
+          @attr name com.rubenhoebee.aps_v03:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 22;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6494,11 +6495,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:contentInsetEnd
+          @attr name com.rubenhoebee.aps_v03:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#contentInsetEndWithActions}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#contentInsetEndWithActions}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6510,11 +6511,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:contentInsetEndWithActions
+          @attr name com.rubenhoebee.aps_v03:contentInsetEndWithActions
         */
         public static final int Toolbar_contentInsetEndWithActions = 10;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6526,11 +6527,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:contentInsetLeft
+          @attr name com.rubenhoebee.aps_v03:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6542,11 +6543,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:contentInsetRight
+          @attr name com.rubenhoebee.aps_v03:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6558,11 +6559,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:contentInsetStart
+          @attr name com.rubenhoebee.aps_v03:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#contentInsetStartWithNavigation}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#contentInsetStartWithNavigation}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6574,21 +6575,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:contentInsetStartWithNavigation
+          @attr name com.rubenhoebee.aps_v03:contentInsetStartWithNavigation
         */
         public static final int Toolbar_contentInsetStartWithNavigation = 9;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:logo
+          @attr name com.rubenhoebee.aps_v03:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6598,11 +6599,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:logoDescription
+          @attr name com.rubenhoebee.aps_v03:logoDescription
         */
         public static final int Toolbar_logoDescription = 26;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6614,11 +6615,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:maxButtonHeight
+          @attr name com.rubenhoebee.aps_v03:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 20;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6628,31 +6629,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:navigationContentDescription
+          @attr name com.rubenhoebee.aps_v03:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 25;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:navigationIcon
+          @attr name com.rubenhoebee.aps_v03:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 24;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:popupTheme
+          @attr name com.rubenhoebee.aps_v03:popupTheme
         */
         public static final int Toolbar_popupTheme = 11;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6662,21 +6663,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:subtitle
+          @attr name com.rubenhoebee.aps_v03:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:subtitleTextAppearance
+          @attr name com.rubenhoebee.aps_v03:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 13;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6687,11 +6688,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:subtitleTextColor
+          @attr name com.rubenhoebee.aps_v03:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 28;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#title}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6701,11 +6702,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:title
+          @attr name com.rubenhoebee.aps_v03:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#titleMargin}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#titleMargin}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6717,11 +6718,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:titleMargin
+          @attr name com.rubenhoebee.aps_v03:titleMargin
         */
         public static final int Toolbar_titleMargin = 14;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6733,11 +6734,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:titleMarginBottom
+          @attr name com.rubenhoebee.aps_v03:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 18;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6749,11 +6750,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:titleMarginEnd
+          @attr name com.rubenhoebee.aps_v03:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 16;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6765,11 +6766,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:titleMarginStart
+          @attr name com.rubenhoebee.aps_v03:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 15;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6781,11 +6782,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:titleMarginTop
+          @attr name com.rubenhoebee.aps_v03:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 17;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6797,21 +6798,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:titleMargins
+          @attr name com.rubenhoebee.aps_v03:titleMargins
         */
         public static final int Toolbar_titleMargins = 19;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:titleTextAppearance
+          @attr name com.rubenhoebee.aps_v03:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 12;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -6822,7 +6823,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:titleTextColor
+          @attr name com.rubenhoebee.aps_v03:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 27;
         /** Attributes that can be used with a View.
@@ -6833,9 +6834,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd com.rubenhoebee.aps_v04:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart com.rubenhoebee.aps_v04:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme com.rubenhoebee.aps_v04:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.rubenhoebee.aps_v03:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.rubenhoebee.aps_v03:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.rubenhoebee.aps_v03:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -6860,7 +6861,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -6872,11 +6873,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:paddingEnd
+          @attr name com.rubenhoebee.aps_v03:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -6888,17 +6889,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:paddingStart
+          @attr name com.rubenhoebee.aps_v03:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.rubenhoebee.aps_v04:theme
+          @attr name com.rubenhoebee.aps_v03:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -6908,8 +6909,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.rubenhoebee.aps_v04:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.rubenhoebee.aps_v04:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.rubenhoebee.aps_v03:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.rubenhoebee.aps_v03:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -6925,7 +6926,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -6936,11 +6937,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.rubenhoebee.aps_v04:backgroundTint
+          @attr name com.rubenhoebee.aps_v03:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v04.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.rubenhoebee.aps_v03.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -6956,7 +6957,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name com.rubenhoebee.aps_v04:backgroundTintMode
+          @attr name com.rubenhoebee.aps_v03:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.

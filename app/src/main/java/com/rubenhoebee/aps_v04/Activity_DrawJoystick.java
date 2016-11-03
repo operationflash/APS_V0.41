@@ -1,15 +1,19 @@
 package com.rubenhoebee.aps_v04;
 
-import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
+import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.PorterDuff;
+import android.net.Uri;
+import android.os.Looper;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import android.webkit.WebView;
 
 import org.java_websocket.WebSocket;
 import org.java_websocket.client.WebSocketClient;
@@ -36,23 +40,39 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
     private String ping ="Ping: 999", rCommand, rOldCommand;
     private String xCoor = "xCoor: ---", yCoor = "yCoor: ---", zCoor = "zCoor: ---";
     private String xAngle = "xAngle: ---", yAngle = "yAngle: ---", zAngle = "zAngle: ---";
-    Activity activity;
+    private WebView webView;
+
+    public Activity_DrawJoystick() { // Needed for google signed release APK (an empty function is needed for the class)
+        super(null);
+    }
+
 
     public Activity_DrawJoystick(Context context, int w, int h) {
         super(context);
         width = w;
         height = h;
         surfaceHolder = getHolder();
+        /**webView = new WebView(context);
+        webView.post(new Runnable() {
+            @Override
+            public void run() {
+                setContentView(intent);
+                webView.getSettings().setJavaScriptEnabled(true);
+                webView.loadUrl("http://149.201.4.25/html/stream3.html");
+                Log.v(TAG, "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Stream should be started!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            }
+        }); */
     }
 
     @Override
     public void run() {
         initialize();
+
         while (CanDraw){
             if(!surfaceHolder.getSurface().isValid()){
                 continue;
             }
-            if (BackSet == false){
+            if (BackSet == false) {
                 initBack();
             }
             draw(canvas);
@@ -69,7 +89,6 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
         midX = (float)width*((float)1/(float)2);
         midY = (float)height*((float)1/(float)2);
         textX = midX - 3 * fontSize;
-
         URI uri;
         try {
             uri = new URI("ws://149.201.4.25:1280/");
@@ -95,7 +114,7 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
 
             @Override
             public void onMessage(String s) {
-                Log.i("Websocket", "onMessage: " + s);
+                //Log.i("Websocket", "onMessage: " + s);
                 final String message = s;
                 switch (s){
                     case "Ready to operate":
@@ -150,6 +169,7 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
                                         OutWorkspace = true;
                                         break;
                                 }
+                                //ERROR::Robotstation do not listen.
                 }
             }
         };
@@ -204,16 +224,13 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
                     angle = Math.atan2(y2, x2);
                     if (angle >= 0 && angle <= 90) {
                         if ( x[i] < roundX) { // SW
-                            Log.v(TAG, "Joystick  = SW");
                             xV = Math.sin(angle) * joySpeed;
                             yV = Math.cos(angle) * joySpeed;
                         }
                         else { // SE
-                            Log.v(TAG, "Joystick  = SE");
                             xV = Math.sin(angle) * joySpeed;
                             yV = Math.cos(angle) * joySpeed;
                         }
-
                     }
                     else if (angle <= -0.5 * Math.PI && angle >= -Math.PI) { //NE
                         angle = angle + Math.PI;
@@ -282,7 +299,6 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
         if (mWebSocketClient.getReadyState() == WebSocket.READYSTATE.OPEN) { //Ready to send data
                 mWebSocketClient.send(rCommand);
         }
-
     }
 
 
@@ -317,7 +333,6 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
         else if (Kicked) {
             canvas.drawText("You no longer have control", textX - fontSize * 10, midY, errorPaint);
         }
-
     }
 
     private void prepPaint() {
