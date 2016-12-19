@@ -27,7 +27,6 @@ import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.drafts.Draft_17;
 import org.java_websocket.handshake.ServerHandshake;
 
-
 public class ReadSensorsDebugMode extends AppCompatActivity implements
         SensorEventListener,
         OnTouchListener{

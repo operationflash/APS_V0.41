@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:2:1-36:12
 	package
 		ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml
@@ -22,16 +22,16 @@ ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidMan
 	android:name
 		ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:6:22-65
 application
-ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:8:5-33:19
+ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:8:5-34:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:11:9-41
 	android:supportsRtl
@@ -86,17 +86,21 @@ activity#com.rubenhoebee.aps_v04.Activity_DrawJoystick
 ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:32:9-59
 	android:name
 		ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:32:19-56
+activity#com.rubenhoebee.aps_v03.Programming
+ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:33:9-81
+	android:name
+		ADDED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml:33:19-69
 uses-sdk
 INJECTED from D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-compat:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-ui:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-fragment:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-vector-drawable:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-media-compat:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:animated-vector-drawable:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:24.2.1] D:\Users\Ruben\AndroidStudioProjects\APS_V0.4\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion

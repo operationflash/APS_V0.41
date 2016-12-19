@@ -44,7 +44,7 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
 
     public Activity_DrawJoystick() { // Needed for google signed release APK (an empty function is needed for the class)
         super(null);
-    }
+    } // Needed for android compilers mind of ease
 
 
     public Activity_DrawJoystick(Context context, int w, int h) {
@@ -52,22 +52,11 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
         width = w;
         height = h;
         surfaceHolder = getHolder();
-        /**webView = new WebView(context);
-        webView.post(new Runnable() {
-            @Override
-            public void run() {
-                setContentView(intent);
-                webView.getSettings().setJavaScriptEnabled(true);
-                webView.loadUrl("http://149.201.4.25/html/stream3.html");
-                Log.v(TAG, "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Stream should be started!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-            }
-        }); */
     }
 
     @Override
     public void run() {
         initialize();
-
         while (CanDraw){
             if(!surfaceHolder.getSurface().isValid()){
                 continue;
@@ -330,8 +319,8 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
         if (RobotControl == false) {
             canvas.drawText("No connection to the robot", textX - fontSize * 10, midY, errorPaint);
         }
-        else if (Kicked) {
-            canvas.drawText("You no longer have control", textX - fontSize * 10, midY, errorPaint);
+        else if (Kicked) {  //Needs work
+            canvas.drawText("You no longer have control (needs work!)", textX - fontSize * 10, midY, errorPaint);
         }
     }
 
@@ -378,7 +367,3 @@ public class Activity_DrawJoystick extends SurfaceView implements Runnable{
         thread.start();
     }
 }
-
-
-
-/** Log.v(TAG, "Screen size = " + width +", " + height); */

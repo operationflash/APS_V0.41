@@ -20,10 +20,6 @@
         "source": "D:\\Users\\Ruben\\AndroidStudioProjects\\APS_V0.4\\app\\src\\main\\res\\layout\\activity_joystick_view.xml"
     },
     {
-        "merged": "D:\\Users\\Ruben\\AndroidStudioProjects\\APS_V0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_axis_interface.xml",
-        "source": "D:\\Users\\Ruben\\AndroidStudioProjects\\APS_V0.4\\app\\src\\main\\res\\layout\\activity_axis_interface.xml"
-    },
-    {
         "merged": "D:\\Users\\Ruben\\AndroidStudioProjects\\APS_V0.4\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "D:\\Users\\Ruben\\AndroidStudioProjects\\APS_V0.4\\app\\src\\main\\res\\layout\\activity_main.xml"
     },

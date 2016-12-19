@@ -1,6 +1,5 @@
 package com.rubenhoebee.aps_v04;
 
-
 import android.content.Context;
 import android.content.Intent;
 import android.hardware.Sensor;
@@ -28,7 +27,6 @@ import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.drafts.Draft_17;
 import org.java_websocket.handshake.ServerHandshake;
 
-
 public class ReadSensors extends AppCompatActivity implements
         SensorEventListener,
         OnTouchListener{
@@ -38,16 +36,18 @@ public class ReadSensors extends AppCompatActivity implements
     private TextView XAngle, YAngle;
     private WebSocketClient mWebSocketClient;
     private byte z = 0;
-    private GestureDetectorCompat mDetector;
+    private GestureDetectorCompat mDetector, mCDetector;
     private Toast toast;
     private final int duration = Toast.LENGTH_SHORT;
     private WebView webView;
+    private int camera = 3;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_read_sensors);
         mDetector = new GestureDetectorCompat(this, new MyGestureListener());
+        mCDetector = new GestureDetectorCompat(this, new MyCameraGestureListener());
         android.hardware.SensorManager sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         webView = (WebView) findViewById(R.id.streamFeed);
         webView.getSettings().setJavaScriptEnabled(true);
@@ -56,7 +56,7 @@ public class ReadSensors extends AppCompatActivity implements
         webView.setOnTouchListener(new View.OnTouchListener(){
             @Override
             public boolean onTouch(View v, MotionEvent event) {
-                return true;
+                return mCDetector.onTouchEvent(event);
             }
         });
 
@@ -201,7 +201,7 @@ public class ReadSensors extends AppCompatActivity implements
             if (AValueY >= -5 && AValueY <= 5){
                 AValueY = 0;
             }
-            String relative = "MoveL::" + String.valueOf(-AValueY) + "::" + String.valueOf(AValueX) + "::"  + String.valueOf(z)+ "::0::0::0::Rel";
+            String relative = "MoveL::" + String.valueOf(AValueY) + "::" + String.valueOf(-AValueX) + "::"  + String.valueOf(z)+ "::0::0::0::Rel";
             if (mWebSocketClient.getReadyState() == WebSocket.READYSTATE.OPEN) { //Ready to send data
                 mWebSocketClient.send(relative);
             }
@@ -278,6 +278,70 @@ public class ReadSensors extends AppCompatActivity implements
             else if (velocityX < -3500) {
                 Intent joystickInterface = new Intent(ReadSensors.this, DrawJoystick.class);
                 startActivity(joystickInterface);
+            }
+            return true;
+        }
+    }
+    private class MyCameraGestureListener extends GestureDetector.SimpleOnGestureListener {
+
+        @Override
+        public boolean onFling(MotionEvent event1, MotionEvent event2,
+                               float velocityX, float velocityY) {
+            if (velocityX > 3500) {
+                switch (camera){
+                    case 1:
+                        webView.loadUrl("http://149.201.4.25/html/stream4.html");
+                        toast = Toast.makeText(getApplicationContext(), "Tool View, may be slow to load", duration);
+                        toast.show();
+                        camera = 4;
+                        break;
+                    case 2:
+                        webView.loadUrl("http://149.201.4.25/html/stream1.html");
+                        toast = Toast.makeText(getApplicationContext(), "Workspace view", duration);
+                        toast.show();
+                        camera = 1;
+                        break;
+                    case 3:
+                        webView.loadUrl("http://149.201.4.25/html/stream2.html");
+                        toast = Toast.makeText(getApplicationContext(), "Front View", duration);
+                        toast.show();
+                        camera = 2;
+                        break;
+                    case 4:
+                        webView.loadUrl("http://149.201.4.25/html/stream3.html");
+                        toast = Toast.makeText(getApplicationContext(), "Side View", duration);
+                        toast.show();
+                        camera = 3;
+                        break;
+                }
+            }
+            else if (velocityX < -3500) {
+                switch (camera) {
+                    case 1:
+                        webView.loadUrl("http://149.201.4.25/html/stream2.html");
+                        toast = Toast.makeText(getApplicationContext(), "Front View", duration);
+                        toast.show();
+                        camera = 2;
+                        break;
+                    case 2:
+                        webView.loadUrl("http://149.201.4.25/html/stream3.html");
+                        toast = Toast.makeText(getApplicationContext(), "Side View", duration);
+                        toast.show();
+                        camera = 3;
+                        break;
+                    case 3:
+                        webView.loadUrl("http://149.201.4.25/html/stream4.html");
+                        toast = Toast.makeText(getApplicationContext(), "Tool View, may be slow to load", duration);
+                        toast.show();
+                        camera = 4;
+                        break;
+                    case 4:
+                        webView.loadUrl("http://149.201.4.25/html/stream1.html");
+                        toast = Toast.makeText(getApplicationContext(), "Workspace view", duration);
+                        toast.show();
+                        camera = 1;
+                        break;
+                }
             }
             return true;
         }

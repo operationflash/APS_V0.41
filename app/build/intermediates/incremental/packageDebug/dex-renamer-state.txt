@@ -1,4 +1,4 @@
-#Thu Nov 03 10:21:40 CET 2016
+#Fri Dec 16 16:50:00 CET 2016
 base.0=D\:\\Users\\Ruben\\AndroidStudioProjects\\APS_V0.4\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_38cab37d8de94ae6b66da30a3ebc9df9bab45c5b
 renamed.1=classes2.dex
 renamed.0=classes.dex
