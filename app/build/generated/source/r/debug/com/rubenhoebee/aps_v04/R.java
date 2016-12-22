@@ -1777,10 +1777,12 @@ containing a value of this type.
         public static final int abc_vector_test=0x7f020052;
         public static final int aps_logo=0x7f020053;
         public static final int ball=0x7f020054;
-        public static final int notification_template_icon_bg=0x7f020058;
-        public static final int round_button_pressed=0x7f020055;
-        public static final int round_button_states=0x7f020056;
-        public static final int round_button_unpressed=0x7f020057;
+        public static final int notification_template_icon_bg=0x7f02005a;
+        public static final int puzzle_finished=0x7f020055;
+        public static final int puzzle_unifinished=0x7f020056;
+        public static final int round_button_pressed=0x7f020057;
+        public static final int round_button_states=0x7f020058;
+        public static final int round_button_unpressed=0x7f020059;
     }
     public static final class id {
         public static final int Camera1btn=0x7f0b005a;

@@ -486,10 +486,12 @@ int drawable abc_textfield_search_material 0x7f020051
 int drawable abc_vector_test 0x7f020052
 int drawable aps_logo 0x7f020053
 int drawable ball 0x7f020054
-int drawable notification_template_icon_bg 0x7f020058
-int drawable round_button_pressed 0x7f020055
-int drawable round_button_states 0x7f020056
-int drawable round_button_unpressed 0x7f020057
+int drawable notification_template_icon_bg 0x7f02005a
+int drawable puzzle_finished 0x7f020055
+int drawable puzzle_unifinished 0x7f020056
+int drawable round_button_pressed 0x7f020057
+int drawable round_button_states 0x7f020058
+int drawable round_button_unpressed 0x7f020059
 int id Camera1btn 0x7f0b005a
 int id Camera2btn 0x7f0b005b
 int id Camera3btn 0x7f0b005c
