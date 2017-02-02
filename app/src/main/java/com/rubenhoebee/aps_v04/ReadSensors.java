@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.view.GestureDetector;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
+import android.view.ScaleGestureDetector;
 import android.view.View;
 import android.view.View.OnTouchListener;
 import android.webkit.WebView;
@@ -32,11 +33,12 @@ public class ReadSensors extends AppCompatActivity implements
         OnTouchListener{
 
     private boolean gravity = false, accelerometer = false, ConnectionAccess = false;;
-    private float GValueX = 0, GValueY = 0, GValueZ = 0;
+    private float GValueX = 0, GValueY = 0, GValueZ = 0, scale = 0;
     private TextView XAngle, YAngle;
     private WebSocketClient mWebSocketClient;
     private byte z = 0;
     private GestureDetectorCompat mDetector, mCDetector;
+    private ScaleGestureDetector sGDetector;
     private Toast toast;
     private final int duration = Toast.LENGTH_SHORT;
     private WebView webView;
@@ -48,6 +50,7 @@ public class ReadSensors extends AppCompatActivity implements
         setContentView(R.layout.activity_read_sensors);
         mDetector = new GestureDetectorCompat(this, new MyGestureListener());
         mCDetector = new GestureDetectorCompat(this, new MyCameraGestureListener());
+        sGDetector = new ScaleGestureDetector(this,new ScaleListener());
         android.hardware.SensorManager sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         webView = (WebView) findViewById(R.id.streamFeed);
         webView.getSettings().setJavaScriptEnabled(true);
@@ -344,6 +347,28 @@ public class ReadSensors extends AppCompatActivity implements
                         break;
                 }
             }
+            return true;
+        }
+    }
+    private class ScaleListener extends ScaleGestureDetector.SimpleOnScaleGestureListener {
+        @Override
+        public boolean onScale(ScaleGestureDetector detector) {
+            scale = detector.getScaleFactor();
+            if (scale <0.85){
+                mWebSocketClient.send("Gripper::Open");
+                mWebSocketClient.send("VacuumGripper::Open");
+                mWebSocketClient.send("VacuumGripper::On");
+                toast = Toast.makeText(getApplicationContext(), "Activate vacuum", duration);
+                toast.show();
+            }
+            else if (scale > 1.15){
+                mWebSocketClient.send("Gripper::Close");
+                mWebSocketClient.send("VacuumGripper::Close");
+                mWebSocketClient.send("VacuumGripper::Off");
+                toast = Toast.makeText(getApplicationContext(), "Deactivate vacuum", duration);
+                toast.show();
+            }
+            scale = 1;
             return true;
         }
     }

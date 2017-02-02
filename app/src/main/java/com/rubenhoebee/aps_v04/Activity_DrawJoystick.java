@@ -18,8 +18,6 @@ import org.java_websocket.handshake.ServerHandshake;
 import java.net.URI;
 import java.net.URISyntaxException;
 
-import static android.support.v4.app.ActivityCompat.startActivity;
-
 
 public class Activity_DrawJoystick extends SurfaceView implements Runnable{
     Thread thread = null;
