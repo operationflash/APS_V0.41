@@ -173,6 +173,7 @@ public class ReadSensors extends AppCompatActivity implements
             }
         };
         mWebSocketClient.connect();
+
     }
 
     @Override
